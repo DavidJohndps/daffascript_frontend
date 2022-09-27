@@ -15,7 +15,13 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/Logo2.svg' },
+      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" },
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Plus Jakarta Sans " },
+    ],
+    script: [
+        { src: "https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js" },
+        { src: "https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit-icons.min.js" },
     ]
   },
 
