@@ -1,9 +1,24 @@
 <template>
-  <Tutorial/>
+  <div>
+    
+  </div>
 </template>
 
 <script>
+import Sidebar from "../components/Sidebar.vue";
 export default {
-  name: 'IndexPage'
+  head: {
+    title: 'index',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Dashboard description'
+      }
+    ],
+  },
+    name: "IndexPage",
+    layout: "default",
+    components: { Sidebar }
 }
 </script>
