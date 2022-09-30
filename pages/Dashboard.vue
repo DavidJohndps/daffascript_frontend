@@ -68,5 +68,11 @@ export default {
     background-color: #B1D4E0;
     border-radius: 10px;
   }
+  .main{
+    color: white;
+    background-color: #5885AF;
+    height: 100vh;
+    width: 80vw;
+}
 
 </style>

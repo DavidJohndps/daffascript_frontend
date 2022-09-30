@@ -3,14 +3,24 @@
     <div>
       <div
         class="uk-card uk-card-default uk-card-body"
-        style="background-color: #0C2D48; height: 100vh; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;"
+        style="background-color: #000032; height: 100vh; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;"
       >
       <img
               uk-img
               src="~/assets/Logo.svg"
               style="width: 80%;"
             />
-        <ul class="uk-list sidebar" style="margin-top: 100px; margin-left: 10px;">
+
+            <div class="uk-flex uk-margin-medium-top" style="cursor: pointer;">
+              <img uk-img src="~assets/icon/User.png" style="width: 50px; height: 50px; border-radius: 50%;">
+              <div class="user" style="margin-top: 10px; margin-left: 10px;">
+                  <h4 style="color: white">User</h4>
+                  <hr>
+              </div>
+            </div>
+
+
+        <ul class="uk-list sidebar" style="margin-top: 25px; margin-left: 10px;">
           <li><nuxt-link to="/Dashboard" style="text-decoration:none; color:white">
             <img
               uk-img
@@ -46,6 +56,13 @@
               style="width: 20px; margin-right: 20px"
             />Testimonials</nuxt-link>
           </li>
+          <li style="margin-top: 70%"><nuxt-link to="#" style="text-decoration:none; color:white">
+            <img
+              uk-img
+              src="~/assets/icon/Logout2.png"
+              style="width: 20px; margin-right: 20px"
+            />Log Out</nuxt-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -55,9 +72,11 @@
 <script>
 </script>
 
-<style>
+<style scoped>
 
-a.nuxt-link-active {
+
+
+.nuxt-link-active {
   background-color: #145DA0;
   padding: 12px 10px;
   position: static;
