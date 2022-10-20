@@ -11,7 +11,7 @@
         " > 
             <div class="uk-navbar-left">
                 <img 
-                src="~assets/logo.svg" 
+                src="~assets/Logo.svg" 
                 class="logo"
                 uk-img
                 style=""
