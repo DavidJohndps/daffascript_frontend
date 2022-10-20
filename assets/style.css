@@ -35,7 +35,7 @@
 
 .gradient{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%);
-    -webkit-background-clip: text;
+    background-clip : text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -309,9 +309,9 @@
     .textcs{
         font-size: 10px !important;
     }
-    .cardt1-b{
-        /* margin-top: 45px !important; */
-    }
+    /* .cardt1-b{
+        margin-top: 45px !important;
+    } */
     .cardt2{
         margin-top: 0 !important;
     }
