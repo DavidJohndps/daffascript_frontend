@@ -1,0 +1,396 @@
+/* Fonts */
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(~assets/fonts/Gilroy-Bold.ttf);
+}
+
+.font-gilroy-bold {
+    font-family: 'Gilroy-Bold';
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(~assets/fonts/Gilroy-Medium.ttf);
+}
+
+.font-gilroy-medium {
+    font-family: 'Gilroy-Medium';
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url(~assets/fonts/Gilroy-Regular.ttf);
+}
+
+.font-gilroy-regular {
+    font-family: 'Gilroy-Regular';
+}
+
+/* text color */
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.gradient{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* background button */
+.b-navbar{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    padding: 14px;
+    border-radius: 75px;
+}
+
+.b-contact {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 75px;
+    width: 200px;
+    background-color: #191949;
+    border: 3px solid #FD0091;
+}
+
+.b-contact:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
+/* card */
+
+.bg-card {
+    background-image: url('~assets/rectangle.svg');
+    background-repeat: repeat space;
+    border-radius: 24px; 
+    background-color: #191949;
+    filter: drop-shadow(0px 4px 4px rgba(124, 116, 116, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0,25));
+}
+
+.titledivisi {
+    font-size: 25px; 
+    line-height: 29px; 
+    color: rgba(225, 225, 255, 0.5)
+}
+
+.titlename{
+    font-size: 32px; 
+    line-height: 38px;
+}
+
+/* Services */
+.csw{
+    height: 60px; 
+    border-radius: 5px; padding: 
+    15px 10px 10px 10px; 
+    background-color: #191949;
+}
+.spacesservices{
+    padding-left: 17px !important;
+}
+.titleservices{
+    font-size: 23px; 
+    line-height: 27px;
+}
+/* Works */
+.cardworks{
+    display: flex;
+}
+.c-logo-e{
+    padding: 0 !important;
+}
+.logo-e{
+    width: 250px; 
+    margin-top: 90px; 
+    margin-left: 786px;
+}
+
+/* About us */
+
+/* Responsive About us */
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+      width: 100%;
+    }
+    .uk-navbar-container{ 
+        margin: 0 0 0 0 !important;
+    }
+    .logo{
+        width: 100px;
+        margin-left: 17px;
+    }
+    
+    .aboutus-2{
+        margin-left: 50px;
+    }
+    .heading{
+        font-size: 20px !important;
+        line-height: 28px !important;
+        margin-left: 0px !important;
+        margin-top: 20px !important;
+    }
+    .crt{
+        padding: 0 0 0 0;
+    }
+    .rock{
+        margin-left: 0px !important;
+    }
+    .text{
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0 !important;
+    }
+    .carditems{
+        width: 270px !important;
+        height: 374px !important;
+    }
+    .carditem{
+        padding-left: 0 !important;
+    }
+    .titledivisi{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .titlename{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .bmore{
+        display: flex;
+        margin-top: 1200px;
+        justify-content:center;
+        padding-left: 0 !important;
+       
+    }
+    .b-more{
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        padding: 16px 32px;
+        border-radius: 75px;
+        width: 117px;
+        background-color: #000032;
+        border: 3px solid #FD0091;
+    }
+    .b-more:hover{
+        background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+        border: none;
+        transition-duration: 0.4s;
+    }
+    .image{
+        width: 94px;
+        height: auto;
+        margin-left: 15px !important;
+    }
+    .trt {
+        margin-left: 15px !important;
+    }
+    .ourvalues{
+       display: grid !important;
+       display: flex !important;
+       width: 100%;
+       margin: 0 !important;
+       margin-top: 25px !important;
+    }
+    .values1{
+        display: flex !important;
+        margin-left: 10px;
+        padding-left: 0;
+        margin-top: 15px;
+    }
+    .values2{
+        display: grid !important;
+        margin-top: 0 !important;
+    }
+    .gridvalues{
+        display: flex !important;
+        margin-top: 0 !important;
+    }
+    .our{
+        padding: 0 !important;
+    }
+    .ourhigh{
+        margin-left: 5px;
+        
+    }
+    .textvalues{
+        margin-left: 13px;
+        margin-top: 10px;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        font-family: 'Gilroy-Medium' !important;
+        width: 50% !important;
+    }
+    .values{
+        font-size: 0;
+        position: absolute;
+    }
+    .imgval{
+        width: 45px;
+    }
+    .banner{
+        height: 110px !important;
+        margin-bottom: 110px !important;
+    }
+    .banner1-1{
+        padding: 0;
+        margin-left: 35px !important;
+    }
+    .banner1{
+        margin-left: 20px !important;
+    }
+    .banner2{
+        position: absolute!important;
+        align-content : center;
+    }
+    .fontbanner{
+        font-size: 15px !important;
+        line-height: 21px !important;
+        margin-top: 15px !important;
+        margin-bottom: 0px !important;
+    }
+    .buttonbanner{ 
+        width: 60px !important;
+        height: 30px ;
+        font-size: 8px !important;
+        margin: 0 !important;
+        margin-left: 20px !important;
+        margin-bottom: 12px !important;
+        padding: 0 !important;
+        margin-top: 10px !important;
+    }
+    .b-contact {
+        border: 2px solid #FD0091;
+    }
+    .bannerimg1{
+        position: absolute !important;
+        z-index: 1;
+        margin-left: 250px !important;
+        width: 40% !important;
+    }
+    .bannerimg2{
+        position: absolute!important;
+        margin-left: 250px !important;
+        z-index: 1;
+        width: 33% !important;
+    }
+   
+}
+
+/* Responsive Services */
+
+@media only screen and (max-width: 600px){
+    .posi{
+        margin-left: 0 !important;
+    }
+    .cardt{
+        padding-left: 0 !important;
+        overflow: auto !important;
+        white-space: nowrap;
+        padding-bottom: 0 !important;
+    }
+    .cardt1{
+        /* height: 350px !important; */
+        width: 150px !important;
+    }
+    .textcs{
+        font-size: 10px !important;
+    }
+    .cardt1-b{
+        /* margin-top: 45px !important; */
+    }
+    .cardt2{
+        margin-top: 0 !important;
+    }
+    .containerservices{
+        margin-left: 10px !important;
+    }
+    .c-services{
+        margin-top: 5px !important;
+    }
+    .headingservices{
+        font-size: 19px !important;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+    .services{
+        padding: 0px;
+        margin-top: 10px !important;
+        padding-left: 8px !important;
+    }
+    .textservices{
+        font-size: 12px !important;
+        line-height: 14px !important;
+    }
+    .res1{
+        margin-left: 15px !important;
+        margin-top: 10px !important;
+    }
+    .res{
+        padding: 20px !important;
+        margin: 0 !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+    }
+}
+
+/* Responsive Works */
+@media only screen and (max-width: 600px) {
+    .cardworks{
+        width: 326px !important;
+        height: 97px !important;
+        border-radius: 16px !important;
+    }
+    .textworks{
+        font-size: 15px !important;
+        margin-top: 22px !important;
+        margin-left: 0 !important;
+    }
+    .card-1{
+        padding: 0 !important;
+    }
+    .imgworks1{
+        border-radius: 0 16px 16px 0 !important;
+        margin-right: 2px;
+        position: absolute;
+        width: 162px;
+        margin-left: 23px !important;
+    }
+    .profile{
+        border-radius: 16px 0 0 16px !important;
+    }
+    .logoworks{
+        width: 50px !important;
+        margin-left: 0 !important;
+    }
+    .cardending{
+        margin-bottom: 60px !important;
+    }
+}
+
+/* @media only screen and (max-width: 375px) {
+    .aboutus-2{
+        flex-direction: column !important;
+        margin-left: 0px !important;
+        margin-top: 0px !important;
+    }
+    .creative{
+        padding: 10px !important;
+    }
+} */
+
+
+

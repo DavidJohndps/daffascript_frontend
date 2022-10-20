@@ -9,6 +9,6 @@
     html{
         font-family: 'Plus Jakarta Sans';
         font-style: normal;
-        background-color: #191949;
+        background-color: #000032;
     }
 </style>
