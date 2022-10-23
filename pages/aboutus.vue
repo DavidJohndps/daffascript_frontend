@@ -202,7 +202,7 @@
                 </button>
             </div>
             <div class="banner2">
-                <img src="~assets/vector (4).svg"
+                <img src="~assets/Vector (4).svg"
                 class="uk-position-absolute bannerimg1"
                 style="
                 width: 610px;

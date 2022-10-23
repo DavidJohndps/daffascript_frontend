@@ -174,7 +174,7 @@
                 <button class="b-show text-white uk-margin-medium-left uk-margin-medium-top b-r-b">Work with us</button>
             </div>
             <div>
-                <img src="~assets/vector (4).svg"
+                <img src="~assets/Vector (4).svg"
                 class="uk-position-absolute p-b"
                 style="
                 width: 610px;

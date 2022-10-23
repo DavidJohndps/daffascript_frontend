@@ -1,3 +1,0 @@
-<tutorial>
-    </nuxt>
-</tutorial>
