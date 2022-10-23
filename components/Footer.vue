@@ -15,7 +15,7 @@
             <p 
             class="uk-text-bold text-white" 
             style="font-size:25px;"> 
-            The only partner you need </p>
+            The only partner you need</p>
 
             <div class="
             uk-margin-medium-top 

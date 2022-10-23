@@ -16,7 +16,7 @@
                     </div> 
                     <div class="uk-flex cardt">
                         <div class="uk-margin-small-right uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px;">
-                        <div class="uk-card-body cardt1-b">
+                        <div class="uk-card-body cardt1-b cardl">
                             <img src="~assets/services/landingpage.svg" class="uk-align-center" style="width:150px;" uk-img>
                             <p class="font-gilroy-bold text-white textcs" style="font-size: 17px; line-height: 28px;">Landing Page Design</p>
                             <button class="uk-align-center" style="border-radius: 50%; padding: 8px; background-color: #191949; border: none;">

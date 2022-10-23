@@ -40,10 +40,10 @@
                 heading
                 " 
                 style=
-                "font-size: 30px; margin-left: 150px; margin-top: 150px">
+                "font-size: 30px; margin-left: 170px; margin-top: 150px">
                 Creative</p>
             </div>
-            <div class="rock" style="margin-left: 150px">
+            <div class="rock" style="margin-left: 170px">
                 <img 
                 src="~assets/cuate.svg" 
                 class="image"
@@ -68,7 +68,7 @@
 
         <div class=
         "uk-container 
-        uk-margin-xlarge-top">
+        uk-margin-xlarge-top mr-ra">
             <p class=
             "uk-text-center 
             uk-text-large 
@@ -79,19 +79,19 @@
             style="font-size: 32px;">
                 Our Team
             </p>
-            <div class="uk-child-width-1-2@s uk-child-width-1-3@m card" uk-grid style="margin-left: 16px;">
+            <div class="uk-child-width-1-2@s uk-child-width-1-3@m card-r" uk-grid style="margin-left: 16px;">
                 <div v-for="(img, index) in images" :key="index"
-                    class="uk-card bg-card carditems uk-padding-remove-left uk-visible@m" uk-grid
+                    class="uk-card bg-card carditems-r uk-padding-remove-left c-r" uk-grid
                     style="width: 360px; height: 490px; margin-left: 20px; margin-top: 20px;" 
                     >
-                    <div class="uk-card-body">
+                    <div class="uk-card-body mr-team">
                         <p class="font-gilroy-medium titledivisi">{{img.divisi}}</p>
                         <p class="font-gilroy-bold text-white titlename">{{img.name}}</p>
                     </div>
-                    <img :src="img.url" class="uk-media-bottom"/>
+                    <img :src="img.url" class="uk-media-bottom img-team"/>
                 </div> 
             </div>
-            <div class="uk-child-width-1-2@s uk-child-width-1-3@m card" uk-grid style="margin-left: 16px;">
+            <!-- <div class="uk-child-width-1-2@s uk-child-width-1-3@m card" uk-grid style="margin-left: 16px;">
                 <div v-for="(imgm, index) in imagesm" :key="index"
                     class="uk-visible@xs uk-hidden@m uk-card bg-card carditems uk-padding-remove-left" uk-grid
                     style="width: 360px; height: 490px; margin-left: 20px;" 
@@ -103,11 +103,11 @@
                     <img :src="imgm.url" class="uk-media-bottom" style="width: 260px;"/>
                 </div> 
                 <button class="b-more text-white uk-visible@xs uk-hidden@m" v-if=!isMore type="button" @click="showMore">More</button>
-            </div>
+            </div> -->
         </div>
         <div class=
         "uk-container
-        uk-margin-large-top">
+        uk-margin-large-top mr-ra">
             <p class="uk-text-center uk-text-large uk-text-bold text-white heading" style="font-size:30px;">
                 Our Values
             </p>
@@ -196,7 +196,9 @@
                 got answers. Let's talk!
                 </h1>
                 <button class="uk-margin-large-left uk-margin-medium-top text-white b-contact buttonbanner" >
+                    <nuxt-link to="/Contact" class="active" style="text-decoration: none;">
                     Contact Us
+                    </nuxt-link>
                 </button>
             </div>
             <div class="banner2">

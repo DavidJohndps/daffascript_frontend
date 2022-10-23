@@ -39,6 +39,118 @@
     -webkit-text-fill-color: transparent;
 }
 
+.form-r{
+    column-count: 2;
+}
+.formc{
+    width: 250px;
+    height: 15px;
+    background-color: #191949;
+    color:rgba(225, 225, 255, 0.62);
+    border: none;
+    border-radius: 13px;
+    padding: 21px;
+    font-size: 20px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    color: #fff;
+}
+
+.formc:active{
+    border-radius:13px;
+}
+.formc:hover{
+    border-radius: 13px;
+    border: 3px solid #FD0091;
+}
+
+.formc1{
+    width: 635px;
+    height: 170px;
+    background-color: #191949;
+    color:rgba(225, 225, 255, 0.62);
+    border: none;
+    border-radius: 13px;
+    padding: 21px;
+    font-size: 20px;
+}
+
+.formc1:active{
+    border-radius:13px;
+}
+.formc1:hover{
+    border-radius: 10px !important;
+    overflow: hidden;
+    border: 3px solid #FD0091;
+}
+
+.btn-s{
+    width:635px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    background-color: #191949;
+    border-radius: 8px;
+    border: 3px solid #FD0091;
+}
+
+.bg-gra{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%);
+}
+
+.b-start{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 75px;
+    width: 200px;
+    background-color: #000032;
+    border: 3px solid #FD0091;
+}
+
+.b-start:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.b-know{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 75px;
+    width: 230px;
+    background-color: #000032;
+    border: 3px solid #FD0091;
+}
+
+.b-know:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.b-show{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 75px;
+    width: 250px;
+    background-color: #000032;
+    border: 3px solid #FD0091;
+}
+
+.b-show:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
 /* background button */
 .b-navbar{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
@@ -114,6 +226,232 @@
 
 /* About us */
 
+/* Homepage */
+
+.logohp{
+    margin-left: 20px;
+}
+
+.profilehp{
+    float: right;
+}
+
+/* Responsive Contact */
+@media only screen and (max-width: 600px) {
+    .r-form{
+        margin-left: 5px !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .r-formt{
+        width: 280px !important;
+        height: 15px !important;
+        font-size: 13px !important;
+        line-height: 15px !important;
+    }
+    .mr-c{
+        margin-left: 28px !important;
+    }
+    .r-formt1{
+        font-size: 13px !important;
+        line-height: 15px !important;
+        width: 310px !important;
+        height: 70px !important;
+    }
+    .r-forms{
+        width: 320px !important;
+        height: 50px !important;
+        font-size: 13px !important;
+        line-height: 16px !important;
+    }
+}
+
+/* Responsive Homepage */
+
+@media only screen and (max-width: 600px) {
+    .pagehome1{
+        margin-left: 0 !important;
+    }
+    .pagehome1-1{
+        margin-left: 17px !important;
+    }
+    .imghome{
+        position: absolute !important;
+    }
+    .texthome{
+        font-size: 12px !important;
+        line-height: 15px !important;
+        font-weight: 500 !important;
+    }
+    .texthome1{
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    .texthome2{
+        font-size: 12px !important;
+        line-height: 160% !important;
+    }
+    .texttotal{
+        font-size: 13.6px !important;
+        line-height: 163% !important;
+    }
+    .textname{
+        font-size: 5px !important;
+        line-height: 163% !important;
+    }
+    .cardhome{
+        width: 215px !important;
+        height: 50px !important;
+        display: flex;
+        padding: 10px 15px 15px 17px !important;
+        border-radius: 7px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .pagehome2{
+        width: 327px !important;
+        height: 341px !important;
+        border-radius: 16px !important;
+        padding-left: 0 !important;
+    }
+    .pagehome2-2{
+        margin-left: 15px !important;
+    }
+    .texthome3{
+        font-size: 20px !important;
+        line-height: 139% !important;
+    }
+    .buttonknow{
+        margin-top: 12px !important;
+        margin-left: 90px !important;
+        width: 122px !important;
+        height: 33px !important;
+        border-radius: 43px !important;
+        font-size: 11px !important;
+        line-height: 15px !important;
+        padding: 5px !important;
+    }
+    .imghome2{
+        width: 300px !important;
+        margin-left: 0 !important;
+        transform: matrix(-1, 0.07, 0.07) !important;
+    }
+    .texthome4{
+        font-size: 23px !important;
+        line-height: 27px !important;
+    }
+    .card-b-r{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .cardhome1{
+        display: block !important;
+    }
+    .cardhome1-1{
+        width: 327px !important;
+        height: 454px !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+    }
+    .cardhome1-a{
+        font-size: 21px !important;
+        line-height: 16px !important;
+    }
+    .cardhome1-b{
+        font-size: 18px!important;
+        line-height: 23px !important;
+    }
+    .texthome5{
+        font-size: 23px !important;
+        line-height: 27px !important;
+    }
+    .logohpr{
+        width: 100px !important;
+    }
+    .profilehpr{
+        width: 300px !important;
+        border-radius: 0 16px 16px 0 !important;
+    }
+    .mr-text{
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
+        margin-left: 20px !important;
+    }
+    .mr-user{
+        margin-top: 10px !important;
+    }
+    .imguser{
+        width: 150px !important;
+        margin-left: 15px !important;
+    }
+    .texttittlehome{
+        font-size: 13px !important;
+        line-height: 15px !important;
+    }
+    .mr-tittle{
+        margin-top: 10px !important;
+        margin-left: 40px !important;
+        margin-right: 10px !important;
+    }
+    .mr-name{
+        margin-top: 20px !important;
+    }
+    .homeourpartner{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .textnamehome{
+        font-size: 12px !important;
+        line-height: 160% !important;
+    }
+    .textcompany{
+        font-size: 8px !important;
+        line-height: 9px !important;
+    }
+    .btnhome{
+        position: absolute !important;
+    }
+    .b-homep{
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    .t-b-h{
+        font-size: 18px !important;
+        line-height: 21px !important;
+        margin-left: 20px!important;
+    }
+    .b-r-b{
+        margin-left: 20px !important;
+        margin-top: 0 !important;
+        width: 85px !important;
+        height: 20px !important;
+        padding: 0 !important;
+        font-size: 8px !important;
+        line-height: 11px !important;
+    }
+    .p-b{
+        width: 200px !important;
+    }
+    .p-b-2{
+        width: 200px !important;
+        margin-top: 0 !important;
+    }
+    .bannerimg1h{
+        position: absolute !important;
+        z-index: 1;
+        margin-top: 0 !important;
+        margin-left: 250px !important;
+        width: 40% !important;
+    }
+    .bannerimg2h{
+        position: absolute!important;
+        margin-top: 0 !important;
+        margin-left: 250px !important;
+        z-index: 1;
+        width: 33% !important;
+    }
+}
+
 /* Responsive About us */
 
 @media only screen and (max-width: 600px) {
@@ -129,13 +467,16 @@
     }
     
     .aboutus-2{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .heading{
         font-size: 20px !important;
         line-height: 28px !important;
         margin-left: 0px !important;
         margin-top: 20px !important;
+    }
+    .mr-ra{
+        padding-left: 0 !important;
     }
     .crt{
         padding: 0 0 0 0;
@@ -153,20 +494,42 @@
         align-items: center;
         margin-left: 0 !important;
     }
+    .card-r{
+        display: flex !important;
+        column-count: 2 !important;
+    }
+    .c-r{
+        border-radius: 8px !important;
+    }
+    .carditems-r{
+        width: 161px !important;
+        height: 203px !important;
+    }
     .carditems{
         width: 270px !important;
         height: 374px !important;
     }
+    .carditem-r{
+        padding-left: 0 !important;
+    }
+    .img-team{
+        width: 150px !important;
+        margin-top: 0 !important;
+    }
     .carditem{
         padding-left: 0 !important;
     }
+    .mr-team{
+        padding-bottom: 0 !important;
+        padding-left: 20px !important;
+    }
     .titledivisi{
-        font-size: 18px;
-        line-height: 21px;
+        font-size: 9px;
+        line-height: 11px;
     }
     .titlename{
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 11px;
+        line-height: 14px;
     }
     .bmore{
         display: flex;
@@ -302,15 +665,19 @@
         white-space: nowrap;
         padding-bottom: 0 !important;
     }
+    .cardl{
+        margin-top: 35px !important;
+    }
     .cardt1{
         /* height: 350px !important; */
-        width: 150px !important;
+        width: 170px !important;
+        height: 300px !important;
     }
     .textcs{
         font-size: 10px !important;
     }
     /* .cardt1-b{
-        margin-top: 45px !important;
+        width: 300px !important;
     } */
     .cardt2{
         margin-top: 0 !important;
