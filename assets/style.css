@@ -228,38 +228,70 @@ input[type="text"]:focus {
 
 /* Homepage */
 
-.logohp{
+/* .logohp{
     margin-left: 20px;
-}
+} */
 
-.profilehp{
-    float: right;
-}
+/* .profilehp{
+    position: relative;
+} */
 
+/* .techno{
+    padding-left: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+} */
+/* .tec{
+    padding-left: 70px;
+} */
+
+/* Responsive Footer */ 
+@media only screen and (max-width: 600px) {
+    .re-fo{
+        padding-left: 0 !important;
+        margin-left: 15px !important;
+    }
+    .img-fo{
+        width: 50% !important;
+    }
+    .text-re{
+        font-size: 15px !important;
+    }
+}
 /* Responsive Contact */
 @media only screen and (max-width: 600px) {
+    .resc{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
     .r-form{
-        margin-left: 5px !important;
+        margin-top: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         display: flex !important;
         flex-direction: column !important;
     }
     .r-formt{
-        width: 280px !important;
+        width: 87% !important;
         height: 15px !important;
         font-size: 13px !important;
         line-height: 15px !important;
     }
     .mr-c{
-        margin-left: 28px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .r-formt1{
         font-size: 13px !important;
         line-height: 15px !important;
-        width: 310px !important;
+        width: 87% !important;
         height: 70px !important;
     }
     .r-forms{
-        width: 320px !important;
+        margin-left: auto !important;
+        margin-right: 0 !important;
+        width: 95% !important;
         height: 50px !important;
         font-size: 13px !important;
         line-height: 16px !important;
@@ -348,8 +380,8 @@ input[type="text"]:focus {
         display: block !important;
     }
     .cardhome1-1{
-        width: 327px !important;
-        height: 454px !important;
+        width: 97% !important;
+        height: auto !important;
         border-radius: 10px !important;
         padding: 10px !important;
     }
@@ -414,6 +446,7 @@ input[type="text"]:focus {
     .b-homep{
         display: flex !important;
         flex-direction: row !important;
+        height: auto !important;
     }
     .t-b-h{
         font-size: 18px !important;
@@ -431,10 +464,13 @@ input[type="text"]:focus {
     }
     .p-b{
         width: 200px !important;
+        right: 0 !important;
     }
     .p-b-2{
         width: 200px !important;
         margin-top: 0 !important;
+        position: absolute !important;
+        right: 0 !important;
     }
     .bannerimg1h{
         position: absolute !important;
@@ -454,6 +490,21 @@ input[type="text"]:focus {
 
 /* Responsive About us */
 
+/* @media only screen and (max-width: 375px) {
+    .carditems-r3{
+        width: 100px !important;
+        height: 203px !important;
+    }
+    .card-r3{
+        display: flex !important;
+        column-count: 2 !important;
+    }
+    .carditems3{
+        width: 100px !important;
+        height: 374px !important;
+    }
+} */
+
 @media only screen and (max-width: 600px) {
     .navbar{
       width: 100%;
@@ -467,7 +518,8 @@ input[type="text"]:focus {
     }
     
     .aboutus-2{
-        margin-left: 70px;
+        flex: 1 0 100% !important;
+        justify-content: center !important;
     }
     .heading{
         font-size: 20px !important;
@@ -477,6 +529,8 @@ input[type="text"]:focus {
     }
     .mr-ra{
         padding-left: 0 !important;
+        flex: 1 0 100% !important;
+        justify-items: center !important;
     }
     .crt{
         padding: 0 0 0 0;
@@ -497,24 +551,27 @@ input[type="text"]:focus {
     .card-r{
         display: flex !important;
         column-count: 2 !important;
+        justify-content: center !important;
+        margin-left: 0 !important;
     }
     .c-r{
         border-radius: 8px !important;
     }
     .carditems-r{
-        width: 161px !important;
+        width: 40% !important;
         height: 203px !important;
     }
     .carditems{
-        width: 270px !important;
+        width: 80% !important;
         height: 374px !important;
     }
     .carditem-r{
         padding-left: 0 !important;
     }
     .img-team{
-        width: 150px !important;
+        width: 95% !important;
         margin-top: 0 !important;
+        justify-items: center !important;
     }
     .carditem{
         padding-left: 0 !important;
@@ -566,6 +623,7 @@ input[type="text"]:focus {
        display: flex !important;
        width: 100%;
        margin: 0 !important;
+      justify-content: center !important;
        margin-top: 25px !important;
     }
     .values1{
@@ -581,6 +639,7 @@ input[type="text"]:focus {
     .gridvalues{
         display: flex !important;
         margin-top: 0 !important;
+        padding-left: 7px !important;
     }
     .our{
         padding: 0 !important;
@@ -605,7 +664,7 @@ input[type="text"]:focus {
         width: 45px;
     }
     .banner{
-        height: 110px !important;
+        height: auto !important;
         margin-bottom: 110px !important;
     }
     .banner1-1{
@@ -617,6 +676,7 @@ input[type="text"]:focus {
     }
     .banner2{
         position: absolute!important;
+        right: 0 !important;
         align-content : center;
     }
     .fontbanner{
@@ -641,14 +701,15 @@ input[type="text"]:focus {
     .bannerimg1{
         position: absolute !important;
         z-index: 1;
-        margin-left: 250px !important;
-        width: 40% !important;
+        right: 0 !important;
+        float: right !important;
+        width: 162px !important;
     }
     .bannerimg2{
         position: absolute!important;
-        margin-left: 250px !important;
+        right: 0 !important;
         z-index: 1;
-        width: 33% !important;
+        width: 131px !important;
     }
    
 }
@@ -657,7 +718,8 @@ input[type="text"]:focus {
 
 @media only screen and (max-width: 600px){
     .posi{
-        margin-left: 0 !important;
+        margin-left: 0px !important;
+        margin-right: 5px !important;
     }
     .cardt{
         padding-left: 0 !important;
@@ -690,7 +752,7 @@ input[type="text"]:focus {
     }
     .headingservices{
         font-size: 19px !important;
-        margin-left: 0 !important;
+        margin-left: 25px !important;
         padding-left: 0 !important;
     }
     .services{
@@ -701,18 +763,29 @@ input[type="text"]:focus {
     .textservices{
         font-size: 12px !important;
         line-height: 14px !important;
+        margin-top: 9px !important;
     }
     .res1{
         margin-left: 15px !important;
         margin-top: 10px !important;
+        text-align: center !important;
     }
+    .res{
+        padding: 10px !important;
+        margin: 0 !important;
+        margin-top: 10px !important;
+        margin-left: 10px !important;
+    }
+}
+
+/* @media only screen and (max-width: 840px) {
     .res{
         padding: 20px !important;
         margin: 0 !important;
         margin-top: 10px !important;
         margin-left: 10px !important;
     }
-}
+} */
 
 /* Responsive Works */
 @media only screen and (max-width: 600px) {
@@ -720,6 +793,8 @@ input[type="text"]:focus {
         width: 326px !important;
         height: 97px !important;
         border-radius: 16px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
     .textworks{
         font-size: 15px !important;

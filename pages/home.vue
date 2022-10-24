@@ -52,15 +52,15 @@
                     helped many businesses all over the world
                 </p>
                 <button class="uk-margin-medium-top text-white b-know buttonknow" >
-                    Know our team
+                    <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 4;">Know our team</nuxt-link>
                 </button>
             </div>
-            <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
-                <img src="~assets/homepage/image1.svg" style="z-index: 3; margin-top: 157px;">
+            <!-- <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
+                <img src="~assets/homepage/image1.svg" style="z-index: 10; margin-top: 157px;">
             </div>
             <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
-                <img src="~assets/vectorhome.svg" style="margin-right: 10px: 0; margin-top: 157px; width: 327px;" uk-img>
-            </div>
+                <img src="~assets/vectorhome.svg" style="margin-right: 10px; z-index: -10; margin-top: 157px; width: 327px;" uk-img>
+            </div> -->
             <div class="uk-position-relative uk-visible@m">
                 <img src="~assets/homepage/image.svg" class="imghome2" style="border-radius: 0 56px 56px 0; margin-left: 620px;" uk-img alt="">
             </div>
@@ -80,7 +80,7 @@
                 </div>
             </div>
         </div>
-        <div class="uk-margin-xlarge-top">
+        <!-- <div class="uk-margin-xlarge-top">
             <div class="uk-margin-medium-left">
                 <p class="text-white font-gilroy-bold texthome5" style="font-size: 50px; line-height: 59px;">
                     Some of our recent works
@@ -89,15 +89,15 @@
             <div class="uk-container">
                 <div v-for="(img, index) in images" :key="index" class="uk-card cardworks uk-margin-medium-left uk-margin-large-top uk-flex uk-padding-remove-right"  
                 style="width: 1100px; height: 300px; background-color: #191949; border-radius: 56px;">
-                    <img :src="img.logo" class="logohp logohpr" style="width:250px"/>
-                    <img :src="img.profile" class="profilehp profilehpr" style="border-radius: 0 56px 56px 0;"/>
+                    <img :src="img.logo" class="logohp logohpr" style="left: 0; width:250px;"/>
+                    <img :src="img.profile" class="profilehp profilehpr" style="position: right; border-radius: 0 56px 56px 0;"/>
                 </div>
-                <!-- <div class="uk-margin-medium-top">
+                <div class="uk-margin-medium-top">
                     <button class="b-show text-white" style="margin-left: 450px;" v-if=!isMoreWorks type="button" @click="showMoreWorks">Show More Works</button>
-                </div> -->
+                </div>
             </div>
-        </div>
-        <div class="uk-margin-large-top uk-container uk-margin-medium-left homeourpartner">
+        </div> -->
+        <!-- <div class="uk-margin-large-top uk-container uk-margin-medium-left homeourpartner">
             <div class="mr-text">
                 <p class="text-white font-gilroy-bold texthome5 uk-visible@m" style="font-size: 50px; line-height: 59px;">
                     What does our recent partners<br>
@@ -154,18 +154,18 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="uk-margin-large-top uk-margin-medium-left">
+        </div> -->
+        <!-- <div class="uk-margin-large-top uk-margin-medium-left">
             <div class="text-white font-gilroy-bold">
                 <p style="font-size: 50px; line-height: 59px;">Technologies we use</p>
             </div>
-           <div class="cardt uk-flex uk-margin-medium-top">
-                <div v-for="(tec, index) in tech" :key="index">
-                    <img :src="tec.logo" style="width: 100px;" alt="">
+           <div class="cardt uk-flex uk-margin-medium-top techno" style="width: 150%;">
+                <div v-for="(tec, index) in tech" :key="index" class="tec">
+                    <img :src="tec.logo" style="width: 150px;" alt="">
                 </div>
            </div>
-        </div>
-        <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
+        </div> -->
+        <!-- <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
             <div class="uk-margin-large-top">
                 <p class="text-white font-gilroy-bold uk-margin-medium-left t-b-h" style="font-size: 50px; line-height: 59px;">
                     Have heard enough?<br>
@@ -185,7 +185,7 @@
                 style="margin-top: 125px;"
                 uk-img alt="">
             </div>
-        </div>
+        </div> -->
     </div>
 </template>
 

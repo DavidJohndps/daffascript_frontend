@@ -4,11 +4,12 @@
         uk-margin-large-top
         uk-margin-medium-left
         uk-margin-medium-right
-        uk-visible@m
+        re-fo
         "
         uk-grid>
-        <div>
+        <div class="re-fo">
             <img src="~assets/Logo.svg" 
+            class="img-fo"
             uk-img
             alt=""
             >
@@ -42,19 +43,20 @@
             </a>
             </div>
             <p 
-            class="font-gilroy-medium"
+            class="font-gilroy-medium text-re"
             style="font-size: 18px;">
             Design - Development - User Experience</p>
         </div>
         <div 
-        class="uk-margin-medium-left" uk-grid>
+        class="uk-margin-medium-left re-fo" uk-grid>
             <div class=
             "uk-column-1-2@s 
             uk-column-1-3@m
             text-white
+            re-fo
             " 
             uk-grid >
-                <div>
+                <div class="re-fo text-re">
                     <p
                     class="uk-text-bold"
                     style="font-size: 22px;"
@@ -62,7 +64,7 @@
                     <p>Our Team</p>
                     <p>Recent Projects</p>
                 </div>
-                <div>
+                <div class="re-fo text-re">
                     <p
                     class="uk-text-bold"
                     style="font-size: 22px;"
@@ -71,7 +73,7 @@
                     <p>Web App Development</p>
                     <p>Mobile App Development</p>
                 </div>
-                <div>
+                <div class="re-fo text-re">
                     <p
                     class="uk-text-bold"
                     style="font-size: 22px;"
@@ -90,7 +92,7 @@
             </div>
         </div>
         <div 
-        class="uk-align-center uk-margin-large-top font-gilroy-medium">
+        class="uk-align-center uk-margin-large-top font-gilroy-medium text-re">
             <footer>2022 PT Daffascript Naga Asia. All Rights Reserved</footer>
         </div>
     </div>
