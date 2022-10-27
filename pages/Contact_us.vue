@@ -1,25 +1,27 @@
 <template>
     <div>
-        <div class="uk-width-large">
-      <div class="uk-card uk-card-default uk-card-body main" style="font-size: 40px;">Contact Us Dashboard<br>
-        <button class="uk-button tombol" style="margin-top: 50px; margin-bottom: 10px; float: right; background-color: #116530;">create</button>
-        <table class="uk-table tab" style="font-size: 30px;">
-    <tbody>
-        <tr>
-            <td>No</td>
-            <td>Table Data</td>
-            <td>Action</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Work</td>
-            <td><button class="uk-button uk-button-primary tombol" style="margin-right: 20px; background-color: #E1C340;">Edit</button><button class="uk-button tombol" style="background-color: #F51720;">Delete</button></td>
-        </tr>
-    </tbody>
-</table></div>
-      
-    </div>
-    </div>
+      <div
+        class="uk-margin-medium-top uk-margin-medium-left main"
+        style="font-size: 20px;"
+      >
+        <b style="color: white; font-size: 40px;">Contact Us</b>
+        <!-- <div
+          class="uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-small color"
+        >
+          <p>0827432849</p>
+        </div> -->
+
+          <div v-for="(ct,index) in contact" :key="index" class="uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-small color">
+              <p>{{ ct.no }}</p>
+          </div>
+        </div>
+
+        <div class="uk-position-bottom-right uk-margin-xlarge-right uk-margin-xlarge-bottom"><img
+              uk-img
+              src="~/assets/icon/Create.png"
+              style="width: 40px; cursor: pointer; position: fixed;"
+            /></div>
+       </div>
   </template>
   
   <script>
@@ -35,6 +37,24 @@
       }
     ],
   },
+  data(){
+  return{
+    contact:[
+      {
+        no: "0826312874"
+      },
+      {
+        no: "08762342476"
+      },
+      {
+        no: "08879274293"
+      },
+      {
+        no: "08792348587"
+      },
+    ]
+  }
+},
     name: "IndexPage",
     layout: "default",
     components: { Sidebar }

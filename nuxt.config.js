@@ -16,7 +16,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/Daffascript_logo.svg' },
-      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/uikit@3.15.9/dist/css/uikit.min.css"}
+      { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/uikit@3.15.9/dist/css/uikit.min.css"},
+      { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Plus Jakarta Sans " }
     ],
     script:[
       {src: "https://cdn.jsdelivr.net/npm/uikit@3.15.9/dist/js/uikit.min.js%22%3E"},
@@ -26,6 +27,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    "~/assets/style.css"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

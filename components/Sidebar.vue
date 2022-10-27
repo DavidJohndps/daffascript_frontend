@@ -2,8 +2,8 @@
   <div>
     <div>
       <div
-        class="uk-card uk-card-default uk-card-body"
-        style="background-color: #000032; height: 100vh; color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;"
+        class="uk-card uk-card-body"
+        style="color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 20px;"
       >
       <img
               uk-img
@@ -73,9 +73,6 @@
 </script>
 
 <style scoped>
-
-
-
 .nuxt-link-active {
   background-color: #145DA0;
   padding: 12px 10px;
@@ -96,13 +93,6 @@ ul li:hover{
     padding: 12px 10px;
     position: static;
     border-radius: 10px;
-}
-
-.main{
-    color: white;
-    background-color: #5885AF;
-    height: 100vh;
-    width: 80vw;
 }
 
 .tab{

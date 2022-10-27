@@ -1,25 +1,17 @@
 <template>
   <div>
-    <div class="uk-width-large">
       <div
-        class="uk-card uk-card-default uk-card-body main"
-        style="font-size: 20px"
+        class="uk-margin-medium-top uk-margin-medium-left main"
+        style="font-size: 20px;"
       >
-        <b style="color: black; font-size: 40px;">Dashboard</b><br />
+        <b style="color: white; font-size: 40px;">Dashboard</b><br />
         <div
-          class="uk-card uk-padding-small"
-          style="
-            height: 30%;
-            color: black;
-            margin-top: 40px;
-            background-color: #B1D4E0;
-            border-radius: 10px;
-          "
+          class="uk-card uk-card-default uk-card-body uk-margin-medium-top uk-padding-small uk-height-small color"
         >
           <p>Contact Us</p>
         </div>
 
-        <div class="uk-flex uk-grid-small uk-grid-match" uk-grid style="margin-top:40px;">
+        <!-- <div class="uk-flex uk-grid-small uk-grid-match" uk-grid style="margin-top:40px;">
     <div class="uk-width-expand@m" uk-grid>
         <div class="uk-card uk-padding-small uk-card-default uk-card-body color uk-height-small">
           <p>Work</p>
@@ -35,11 +27,31 @@
           <p>Testimonials</p>
         </div>
     </div>
-</div>
-
+</div> -->
+    <div class="uk-flex uk-child-width-expand@m uk-margin-medium-top" uk-grid>
+      <div>
+        <div class="uk-card uk-card-default uk-card-body uk-padding-small uk-height-small uk-margin-medium-right color">
+          <p>Work</p>
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-card-body uk-padding-small uk-height-small color">
+          <p>Service</p>
+        </div>
+    </div>
+    <div>
+      <div class="uk-card uk-card-default uk-card-body uk-padding-small uk-height-small color">
+        <p>Testimonials</p>
       </div>
     </div>
+    </div>
+
+      </div>
+
+    <!-- {{ Products }} -->
+    
   </div>
+
 </template>
   
   <script>
@@ -57,22 +69,42 @@ export default {
   },
   name: 'IndexPage',
   layout: 'default',
-  components: { Sidebar },
+  components: { Sidebar }
+  // computed: {
+  //   Products(){
+  //     return this.products.filter(product=>{
+  //       if(product.id==2) return product 
+  //     })
+  //   }
+  // },
+  // data() {
+  //   return {
+  //     products: [
+  //       {
+  //           id: 1,
+  //           name: 'mamat',
+  //           umur: 10
+  //       },
+  //       {
+  //           id: 2,
+  //           name: 'memet',
+  //           umur: 11
+  //       }
+  //     ]
+  //   }
+  // }
 }
 </script>
 
 <style>
   .color{
-    color: black;
+    color: white;
     margin-right: 30px;
-    background-color: #B1D4E0;
+    background-color: #101044;
     border-radius: 10px;
   }
   .main{
     color: white;
-    background-color: #5885AF;
-    height: 100vh;
-    width: 80vw;
 }
 
 </style>
