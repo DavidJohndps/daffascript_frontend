@@ -194,9 +194,7 @@
               <img src="~assets/Vector (4).svg"
               class="uk-position-absolute p-b"
               style="
-              right: 0;
-              width: 720px;
-              height: auto;"
+              right: 0;"
               uk-img alt="">
               <img src="~assets/homepage/Group_18385.svg"
               class="uk-position-relative p-b-2"
