@@ -46,7 +46,7 @@
       </div>
      <div class="uk-container">
         <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1100px; height: 512px;">
-          <div class="uk-margin-large-top uk-margin-medium-left pagehome2-2" style="z-index: 1;">
+          <div class="uk-margin-medium-top uk-margin-medium-left pagehome2-2" style="z-index: 1;">
               <p class="font-gilroy-bold text-white texthome3" style="font-size:40px; line-height: 139%;">
                   The success of your businness<br>
                   starts here, <span class="gradient">With Us.</span>
@@ -56,7 +56,7 @@
                   have created countless of outstanding works and<br>
                   helped many businesses all over the world
               </p>
-              <button class="uk-margin-medium-top text-white b-know buttonknow" >
+              <button class="uk-margin-medium-top uk-margin-medium-left text-white b-know buttonknow" >
                   <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">Know our team</nuxt-link>
               </button>
           </div>
