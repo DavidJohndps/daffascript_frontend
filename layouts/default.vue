@@ -7,7 +7,7 @@
 </template>
 <style>
     html{
-        font-family: 'Plus Jakarta Sans';
+        font-family: 'Gilroy-Medium';
         font-style: normal;
         background-color: #000032;
     }

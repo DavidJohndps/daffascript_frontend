@@ -17,10 +17,10 @@
                 style=""
                 alt="">
             </div>
-            <div class="uk-navbar-right">
+            <div class="uk-navbar-right" style="font-size: 20px;">
                         <ul class="uk-visible@m" uk-navbar>
                             <li>
-                                <nuxt-link to="/Home" class="active" style="text-decoration: none;">Home</nuxt-link>
+                                <nuxt-link to="/" class="active" style="text-decoration: none;">Home</nuxt-link>
                             </li> 
                             <li>
                                 <nuxt-link to="/AboutUs" class="active" style="text-decoration: none;">About Us</nuxt-link>
@@ -33,7 +33,7 @@
                             </li>
                             <li>
                                 <button class="b-navbar">
-                                    <nuxt-link to="/WorkWithUs" class="active1" style="text-decoration: none;">Work With Us</nuxt-link>
+                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 20px;">Work With Us</nuxt-link>
                                 </button>
                             </li>
                         </ul>
@@ -45,7 +45,7 @@
                                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                                 <ul class="uk-nav uk-margin-auto-vertical">
                                     <li>
-                                        <nuxt-link to="/Home" class="active" style="text-decoration: none;">Home</nuxt-link>
+                                        <nuxt-link to="/" class="active" style="text-decoration: none;">Home</nuxt-link>
                                     </li> 
                                     <li>
                                         <nuxt-link to="/AboutUs" class="active" style="text-decoration: none;">About Us</nuxt-link>
@@ -76,11 +76,10 @@
     }
     .active{
         color: #ACB5BD;
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
     }
     .active1{
         color: #FFFFFF;
+        padding: 10px;
     }
     .active1:hover{
         color: #FFFFFF;

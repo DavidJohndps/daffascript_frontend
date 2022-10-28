@@ -111,11 +111,11 @@ input[type="text"]:focus {
     border: 3px solid #FD0091;
 }
 
-.b-start:hover{
+/* .b-start:hover{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
     border: none;
     transition-duration: 0.4s;
-}
+} */
 
 .b-know{
     font-size: 20px;
@@ -176,6 +176,7 @@ input[type="text"]:focus {
     transition-duration: 0.4s;
 }
 
+
 /* card */
 
 .bg-card {
@@ -223,28 +224,6 @@ input[type="text"]:focus {
     margin-top: 90px; 
     margin-left: 786px;
 }
-
-/* About us */
-
-/* Homepage */
-
-/* .logohp{
-    margin-left: 20px;
-} */
-
-/* .profilehp{
-    position: relative;
-} */
-
-/* .techno{
-    padding-left: 20px;
-    overflow-y: hidden;
-    overflow-x: scroll;
-    white-space: nowrap;
-} */
-/* .tec{
-    padding-left: 70px;
-} */
 
 /* Responsive Footer */ 
 @media only screen and (max-width: 600px) {
@@ -398,10 +377,10 @@ input[type="text"]:focus {
         line-height: 27px !important;
     }
     .logohpr{
-        width: 100px !important;
+        width: 70px !important;
     }
     .profilehpr{
-        width: 300px !important;
+        width: 250px !important;
         border-radius: 0 16px 16px 0 !important;
     }
     .mr-text{
@@ -440,12 +419,35 @@ input[type="text"]:focus {
         font-size: 8px !important;
         line-height: 9px !important;
     }
+    .re-tec{
+        margin-left: 0 !important;
+    }
+    .re-tec-text{
+        font-size: 23px !important;
+        line-height: 27px !important;
+    }
+    .re-tec-img{
+        width: 33px !important;
+    }
+    .tec3{
+        max-height: 150px !important;
+        padding: 5px !important;
+    }
+    .tec2{
+        max-height: 20% !important;
+    }
+    .tec1{
+        max-height: 85px !important;
+    }
+    .tec{
+        width: 16% !important;
+        height: 20% !important;
+    }
     .btnhome{
         position: absolute !important;
     }
     .b-homep{
-        display: flex !important;
-        flex-direction: row !important;
+        column-count: 2 !important;
         height: auto !important;
     }
     .t-b-h{
@@ -456,35 +458,32 @@ input[type="text"]:focus {
     .b-r-b{
         margin-left: 20px !important;
         margin-top: 0 !important;
-        width: 85px !important;
+        width: 70px !important;
         height: 20px !important;
         padding: 0 !important;
         font-size: 8px !important;
         line-height: 11px !important;
+        margin-bottom: 8px !important
+    }
+    .b-show{
+        border: 2px solid #FD0091 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        width:auto !important;
+        font-size: 12px !important;
+        height: auto !important;
     }
     .p-b{
-        width: 200px !important;
-        right: 0 !important;
+        width: 54% !important;
+        right: 0 !important;     
     }
     .p-b-2{
-        width: 200px !important;
-        margin-top: 0 !important;
+        width: 54% !important;
+        margin-top: 42px !important;
         position: absolute !important;
         right: 0 !important;
-    }
-    .bannerimg1h{
-        position: absolute !important;
-        z-index: 1;
-        margin-top: 0 !important;
-        margin-left: 250px !important;
-        width: 40% !important;
-    }
-    .bannerimg2h{
-        position: absolute!important;
-        margin-top: 0 !important;
-        margin-left: 250px !important;
-        z-index: 1;
-        width: 33% !important;
     }
 }
 
@@ -516,15 +515,18 @@ input[type="text"]:focus {
         width: 100px;
         margin-left: 17px;
     }
-    
     .aboutus-2{
         flex: 1 0 100% !important;
         justify-content: center !important;
     }
+    .p-0{
+        padding-left: 0 !important;
+    }
     .heading{
         font-size: 20px !important;
         line-height: 28px !important;
-        margin-left: 0px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
         margin-top: 20px !important;
     }
     .mr-ra{
@@ -559,7 +561,7 @@ input[type="text"]:focus {
     }
     .carditems-r{
         width: 40% !important;
-        height: 203px !important;
+        height: 185px !important;
     }
     .carditems{
         width: 80% !important;
@@ -569,9 +571,11 @@ input[type="text"]:focus {
         padding-left: 0 !important;
     }
     .img-team{
-        width: 95% !important;
+        width: 75% !important;
         margin-top: 0 !important;
-        justify-items: center !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0 !important;
     }
     .carditem{
         padding-left: 0 !important;
@@ -719,13 +723,14 @@ input[type="text"]:focus {
 @media only screen and (max-width: 600px){
     .posi{
         margin-left: 0px !important;
-        margin-right: 5px !important;
     }
     .cardt{
         padding-left: 0 !important;
         overflow: auto !important;
         white-space: nowrap;
         padding-bottom: 0 !important;
+        justify-items: center !important;
+        right: 10px !important;
     }
     .cardl{
         margin-top: 35px !important;

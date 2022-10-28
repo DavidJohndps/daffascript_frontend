@@ -124,7 +124,9 @@
                 got answers. Let's talk!
                 </h1>
                 <button class="uk-margin-large-left uk-margin-medium-top text-white b-contact buttonbanner" >
+                    <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
                     Contact Us
+                    </nuxt-link>
                 </button>
             </div>
             <div class="banner2">
