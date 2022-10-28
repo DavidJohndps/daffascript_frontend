@@ -71,21 +71,27 @@
           </div>
       </div>
      </div>
-      <div class="uk-margin-xlarge-top uk-container">
-          <p class="text-white font-gilroy-bold uk-text-center texthome4" style="font-size: 50px; line-height: 59px;">
-              Our line of expertise
-          </p>
-          <div class="uk-flex uk-child-column-1-2@s uk-child-column-1-3@m cardhome1" uk-grid>
-              <div v-for="(exp, index) in expert" :key="index" class="uk-card uk-align-center uk-text-center cardhome1-1" 
-              style="margin-top: 10px; padding: 20px; width: 370px; height: 537px; filter: drop-shadow(0px 4px 77px #0C0C3D); background-color: #191949; border-radius: 20px;">
-                  <div class="uk-card-body card-b-r">
-                      <img :src="exp.pict" alt="">
-                      <p class="text-white cardhome1-a" style="font-size: 28px; line-height: 35px; font-weight: 700">{{exp.name}}</p>
-                      <p class="text-white cardhome1-b" style="font-size: 22px; line-height: 28px; font-weight: 400">{{exp.title}}</p>
-                  </div>
-              </div>
-          </div>
-      </div>
+    <div class="uk-container">
+          <div class="uk-margin-xlarge-top" >
+                <div>
+                    <p class="text-white font-gilroy-bold uk-text-center texthome4" style="font-size: 50px; line-height: 59px;">
+                        Our line of expertise
+                    </p>
+                </div>
+               <div class="uk-container">
+                    <div class="uk-flex uk-child-width-1-2@s uk-child-width-1-3@m uk-align-center cardhome1" uk-grid style="margin-left: 22px;">
+                        <div v-for="(exp, index) in expert" :key="index" class="uk-card uk-align-center uk-text-center cardhome1-1" 
+                        style="margin-top: 10px; margin-left: 20px; margin-right:0; padding: 20px; width: 353px; height: 537px; filter: drop-shadow(0px 4px 77px #0C0C3D); background-color: #191949; border-radius: 20px;">
+                            <div class="uk-card-body card-b-r">
+                                <img :src="exp.pict" alt="">
+                                <p class="text-white cardhome1-a" style="font-size: 28px; line-height: 35px; font-weight: 700">{{exp.name}}</p>
+                                <p class="text-white cardhome1-b" style="font-size: 22px; line-height: 28px; font-weight: 400">{{exp.title}}</p>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+         </div>
+    </div>
       <div class="uk-container">
           <div class="uk-margin-xlarge-top">
               <div class="uk-margin-medium-left">
