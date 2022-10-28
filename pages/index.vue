@@ -44,9 +44,10 @@
               </div>
           </div>
       </div>
-      <div class="uk-container uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1100px; height: 512px;">
-          <div class="uk-position-absolute uk-margin-large-top uk-margin-medium-left pagehome2-2" style="z-index: 1;">
-              <p class="font-gilroy-bold text-white texthome3" style="font-size:45px; line-height: 139%;">
+     <div class="uk-container">
+        <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1100px; height: 512px;">
+          <div class="uk-margin-large-top uk-margin-medium-left pagehome2-2" style="z-index: 1;">
+              <p class="font-gilroy-bold text-white texthome3" style="font-size:40px; line-height: 139%;">
                   The success of your businness<br>
                   starts here, <span class="gradient">With Us.</span>
               </p>
@@ -59,21 +60,22 @@
                   <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">Know our team</nuxt-link>
               </button>
           </div>
+          <div class="uk-visible@m">
+                <img src="~assets/homepage/image.svg" style="border-radius: 0 56px 56px 0; z-index: -1;" uk-img alt="">
+        </div>
           <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
               <img src="~assets/vectorhome.svg" style="margin-right: 10px; z-index: -2; margin-top: 157px; width: 327px;" uk-img>
           </div>
           <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
               <img src="~assets/homepage/image1.svg" style="z-index: 1; margin-top: 157px;">
           </div>
-          <div class="uk-position-absolute uk-visible@m" style="right: 60px;">
-              <img src="~assets/homepage/image.svg" class="imghome2" style="border-radius: 0 56px 56px 0; z-index: -1;" uk-img alt="">
-          </div>
       </div>
-      <div class="uk-margin-xlarge-top">
+     </div>
+      <div class="uk-margin-xlarge-top uk-container">
           <p class="text-white font-gilroy-bold uk-text-center texthome4" style="font-size: 50px; line-height: 59px;">
               Our line of expertise
           </p>
-          <div class="uk-flex uk-container uk-child-column-1-2@s uk-child-column-1-3@m uk-margin-medium-left uk-margin-medium-right cardhome1" uk-grid>
+          <div class="uk-flex uk-child-column-1-2@s uk-child-column-1-3@m cardhome1" uk-grid>
               <div v-for="(exp, index) in expert" :key="index" class="uk-card uk-align-center uk-text-center cardhome1-1" 
               style="margin-top: 10px; padding: 20px; width: 370px; height: 537px; filter: drop-shadow(0px 4px 77px #0C0C3D); background-color: #191949; border-radius: 20px;">
                   <div class="uk-card-body card-b-r">
@@ -106,9 +108,10 @@
               </div>
           </div>
       </div>
-      <div class="uk-margin-large-top uk-container uk-margin-medium-left homeourpartner">
+     <div class="uk-container">
+        <div class=" uk-margin-large-top uk-margin-medium-left homeourpartner">
           <div class="mr-text">
-              <p class="text-white font-gilroy-bold texthome5 uk-visible@m" style="font-size: 50px; line-height: 59px;">
+              <p class="text-white font-gilroy-bold texthome5 uk-visible@m " style="font-size: 50px; line-height: 59px;">
                   What does our recent partners<br>
                   say about us?
               </p>
@@ -141,10 +144,10 @@
                     </li>
                 </ul>
                 <div class="uk-margin-large-top uk-flex uk-visible@m btnhome uk-position-bottom-right">
-                    <div style="">
+                    <div class="uk-position-small">
                         <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 50px; height: 50px;" uk-slidenav-previous uk-slider-item="previous"></button>
                     </div>
-                    <div style="">
+                    <div class="uk-position-small">
                         <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 50px; height: 50px;"  uk-slidenav-next uk-slider-item="next"></button>
                     </div>
                 </div>
@@ -158,7 +161,9 @@
                 </div>
           </div>
       </div>
-      <div class="uk-container uk-margin-large-top uk-margin-medium-left re-tec">
+     </div>
+      <div class="uk-container">
+        <div class="uk-margin-large-top uk-margin-medium-left re-tec">
           <div class="text-white font-gilroy-bold">
               <p class="re-tec-text" style="font-size: 50px; line-height: 59px;">Technologies we use</p>
           </div>
@@ -171,25 +176,26 @@
             <a class="uk-position-center-left uk-position-small uk-hidden-hover uk-visible@m" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
             <a class="uk-position-center-right uk-position-small uk-hidden-hover uk-visible@m" href="#" uk-slidenav-next uk-slider-item="next"></a>
          </div>
-
       </div>
+      </div> 
       <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
           <div class="uk-margin-large-top">
-              <p class="text-white font-gilroy-bold uk-margin-medium-left t-b-h" style="font-size: 50px; line-height: 59px;">
+              <p class="text-white font-gilroy-bold uk-margin-large-left t-b-h" style="font-size: 50px; line-height: 59px;">
                   Have heard enough?<br>
                   Let's Partner Up.
               </p>
-              <button class="b-show text-white uk-margin-medium-left uk-margin-medium-top b-r-b">
+              <button class="b-show text-white uk-margin-medium-top uk-margin-large-left b-r-b">
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
                     Work With Us
                 </nuxt-link>
               </button>
           </div>
-          <div class="uk-float-right banner2">
+          <div class="banner2">
               <img src="~assets/Vector (4).svg"
               class="uk-position-absolute p-b"
               style="
-              width: 610px;
+              right: 0;
+              width: 720px;
               height: auto;"
               uk-img alt="">
               <img src="~assets/homepage/Group_18385.svg"

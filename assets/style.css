@@ -67,7 +67,7 @@ input[type="text"]:focus {
 }
 
 .formc1{
-    width: 635px;
+    width: 620px;
     height: 170px;
     background-color: #191949;
     color:rgba(225, 225, 255, 0.62);
@@ -87,7 +87,7 @@ input[type="text"]:focus {
 }
 
 .btn-s{
-    width:635px;
+    width:660px;
     height: 60px;
     font-size: 20px;
     line-height: 24px;
@@ -341,11 +341,6 @@ input[type="text"]:focus {
         font-size: 11px !important;
         line-height: 15px !important;
         padding: 5px !important;
-    }
-    .imghome2{
-        width: 300px !important;
-        margin-left: 0 !important;
-        transform: matrix(-1, 0.07, 0.07) !important;
     }
     .texthome4{
         font-size: 23px !important;

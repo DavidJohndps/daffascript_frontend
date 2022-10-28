@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="font-gilroy-medium uk-margin-large-left resc">
+                    <div class="font-gilroy-medium uk-margin-small-left resc">
                        <form action="" class="uk-margin-large-left r-form">
                             <legend class="uk-legend text-white uk-visible@m" style="font-size: 35px; line-height: 41px;">
                                 Send us your message

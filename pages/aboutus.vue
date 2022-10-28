@@ -26,9 +26,9 @@
             </p>
         </div>
 
+      <div class="uk-container">
         <div class=
         "uk-margin-xlarge-top 
-        uk-container
         uk-flex
         -font-gilroy-bold
         aboutus-2
@@ -68,6 +68,7 @@
                 Trusted</p>
             </div>
         </div>
+      </div>
 
         <div class=
         "uk-container 
