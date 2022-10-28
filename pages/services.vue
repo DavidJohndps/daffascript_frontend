@@ -133,6 +133,7 @@
                 <img src="~assets/Vector (4).svg"
                 class="uk-position-absolute bannerimg1"
                 style="
+                right: 0;
                 width: 610px;
                 height: auto;
                 z-index: 1;"
