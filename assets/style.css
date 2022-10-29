@@ -151,6 +151,23 @@ input[type="text"]:focus {
     transition-duration: 0.4s;
 }
 
+.btn-r-b{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border-radius: 75px;
+    width: 250px;
+    background-color: #000032;
+    border: 3px solid #FD0091;
+}
+
+.btn-r-b:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
 /* background button */
 .b-navbar{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
@@ -243,6 +260,7 @@ input[type="text"]:focus {
     .resc{
         margin-left: auto !important;
         margin-right: auto !important;
+        padding-left: 0 !important;
     }
     .r-form{
         margin-top: 0 !important;
@@ -269,11 +287,12 @@ input[type="text"]:focus {
     }
     .r-forms{
         margin-left: auto !important;
-        margin-right: 0 !important;
+        margin-right: auto !important;
         width: 95% !important;
         height: 50px !important;
         font-size: 13px !important;
         line-height: 16px !important;
+        border-radius: 12px !important;
     }
 }
 
@@ -341,6 +360,7 @@ input[type="text"]:focus {
         font-size: 11px !important;
         line-height: 15px !important;
         padding: 5px !important;
+        border: 1.5px solid #FD0091;
     }
     .texthome4{
         font-size: 23px !important;
@@ -358,6 +378,7 @@ input[type="text"]:focus {
         height: auto !important;
         border-radius: 10px !important;
         padding: 10px !important;
+        margin-left: 0 !important;
     }
     .cardhome1-a{
         font-size: 21px !important;
@@ -429,7 +450,7 @@ input[type="text"]:focus {
         padding: 5px !important;
     }
     .tec2{
-        max-height: 20% !important;
+        max-height: 150px !important;
     }
     .tec1{
         max-height: 85px !important;
@@ -450,18 +471,19 @@ input[type="text"]:focus {
         line-height: 21px !important;
         margin-left: 20px!important;
     }
-    .b-r-b{
+    .btn-r-b{
         margin-left: 20px !important;
-        margin-top: 0 !important;
-        width: 70px !important;
+        margin-top: 20px !important;
+        width: 80px !important;
         height: 20px !important;
         padding: 0 !important;
         font-size: 8px !important;
         line-height: 11px !important;
-        margin-bottom: 8px !important
+        margin-bottom: 12px !important;
+        border: 1.5px solid #FD0091;
     }
     .b-show{
-        border: 2px solid #FD0091 !important;
+        border: 1.5px solid #FD0091 !important;
         padding-left: 10px !important;
         padding-right: 10px !important;
         padding-top: 5px !important;
@@ -471,15 +493,18 @@ input[type="text"]:focus {
         height: auto !important;
     }
     .p-b{
-        width: 54% !important;
-        right: 0 !important;     
+        margin-top: 40px !important;
+        position: absolute!important;
+        right: 20px !important;
+        z-index: 1;
+        width: 150px !important;
     }
-    .p-b-2{
+    /* .p-b-2{
         width: 54% !important;
         margin-top: 42px !important;
         position: absolute !important;
         right: 0 !important;
-    }
+    } */
 }
 
 /* Responsive About us */
@@ -555,8 +580,8 @@ input[type="text"]:focus {
         border-radius: 8px !important;
     }
     .carditems-r{
-        width: 40% !important;
-        height: 185px !important;
+        width: 44% !important;
+        height: 183px !important;
     }
     .carditems{
         width: 80% !important;
@@ -685,8 +710,8 @@ input[type="text"]:focus {
         margin-bottom: 0px !important;
     }
     .buttonbanner{ 
-        width: 60px !important;
-        height: 30px ;
+        width: 70px !important;
+        height: 30px;
         font-size: 8px !important;
         margin: 0 !important;
         margin-left: 20px !important;
@@ -695,7 +720,7 @@ input[type="text"]:focus {
         margin-top: 10px !important;
     }
     .b-contact {
-        border: 2px solid #FD0091;
+        border: 1.5px solid #FD0091;
     }
     .bannerimg1{
         position: absolute !important;
@@ -717,12 +742,15 @@ input[type="text"]:focus {
 
 @media only screen and (max-width: 600px){
     .posi{
-        margin-left: 0px !important;
+        margin-left: 0 !important;
+    }
+    .cardt2{
+        margin-left: 10px !important;
     }
     .cardt{
         padding-left: 0 !important;
-        overflow: auto !important;
-        white-space: nowrap;
+        /* overflow: auto !important;
+        white-space: nowrap; */
         padding-bottom: 0 !important;
         justify-items: center !important;
         right: 10px !important;
@@ -733,14 +761,18 @@ input[type="text"]:focus {
     .cardt1{
         /* height: 350px !important; */
         width: 170px !important;
-        height: 300px !important;
+        height: 230px !important;
     }
     .textcs{
         font-size: 10px !important;
     }
-    /* .cardt1-b{
-        width: 300px !important;
-    } */
+    .cardt1-bn{
+       margin-top: 45px !important;
+    }
+    .cardt-img{
+        width: 100px !important;
+        margin-left: 45px !important;
+    }
     .cardt2{
         margin-top: 0 !important;
     }

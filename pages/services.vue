@@ -5,7 +5,7 @@
                 class="uk-position-absolute uk-position-right uk-visible@m "
                 style="z-index: -1; width: 750px;" 
                 uk-img alt="">
-                <div class="uk-margin-medium-left uk-margin-large-top uk-container uk-child-width-1-2@s" uk-grid>
+                <div class="uk-margin-medium-left uk-margin-large-top uk-container uk-child-width-1-2@s cardt2" uk-grid>
                     <div class="text-white uk-margin-medium-top  uk-visible@m">
                         <p class="font-gilroy-bold"
                         style="font-size: 70px; line-height: 82px;"
@@ -15,16 +15,16 @@
                         >We offer a wide range of services and<br>provides complete client satisfication</p>
                     </div> 
                     <div class="uk-flex cardt">
-                        <div class="uk-margin-small-right uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 250px;">
-                        <div class="uk-card-body cardt1-b cardl">
+                        <div class="uk-margin-small-right uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px;">
+                        <div class="uk-card-body cardt1-b cardl uk-margin-medium-top">
                             <img src="~assets/services/landingpage.svg" class="uk-align-center" style="width:150px;" uk-img>
                             <p class="font-gilroy-bold text-white textcs" style="font-size: 17px; line-height: 28px;">Landing Page Design</p>
                         </div>
                         </div>
                         <div class="uk-margin-small-left uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px;">
-                        <div class="uk-card-body cardt1-b">
-                            <img src="~assets/services/mobiledesign.svg" class="uk-align-center" style="width:150px;" uk-img>
-                            <p class="font-gilroy-bold text-white uk-text-center textcs" style="margin-bottom: 15px;font-size: 17px; line-height: 28px;">Mobile App Design</p>
+                        <div class="cardt1-bn uk-margin-medium-top">
+                            <img src="~assets/services/mobiledesign.svg" class="cardt-img uk-align-center uk-margin-remove-bottom" style="width:150px; margin-bottom: 30px;" uk-img>
+                            <p class="font-gilroy-bold text-white uk-text-center textcs" style="margin-top: 10px; font-size: 17px; line-height: 28px;">Mobile App Design</p>
                         </div>
                         </div>
                         <!-- <div class="uk-margin-small-left uk-margin-large-top uk-card cardt2" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 350px;">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
-                <p class="font-gilroy-bold text-white headingservices"
+                <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Web</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
-                <p class="font-gilroy-bold text-white headingservices"
+                <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Apps</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
-                <p class="font-gilroy-bold text-white headingservices"
+                <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Branding & Marketing</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
-                <p class="font-gilroy-bold text-white headingservices"
+                <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Illustrations & Motion</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
@@ -95,7 +95,7 @@
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
-                <p class="font-gilroy-bold text-white headingservices"
+                <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Development</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>

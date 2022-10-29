@@ -64,7 +64,7 @@
                 <img src="~assets/homepage/image.svg" style="border-radius: 0 56px 56px 0; z-index: -1;" uk-img alt="">
         </div>
           <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
-              <img src="~assets/vectorhome.svg" style="margin-right: 10px; z-index: -2; margin-top: 157px; width: 327px;" uk-img>
+              <img src="~assets/vectorhome.svg" style="margin-right: 10px; z-index: -2; margin-top: 157px; width: 327px; border-radius: 0 0 15px 15px;" uk-img>
           </div>
           <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
               <img src="~assets/homepage/image1.svg" style="z-index: 1; margin-top: 157px;">
@@ -151,18 +151,18 @@
                 </ul>
                 <div class="uk-margin-large-top uk-flex uk-visible@m btnhome uk-position-bottom-right">
                     <div class="uk-position-small">
-                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 50px; height: 50px;" uk-slidenav-previous uk-slider-item="previous"></button>
+                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 60px; height: 60px;" uk-slidenav-previous uk-slider-item="previous"></button>
                     </div>
                     <div class="uk-position-small">
-                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 50px; height: 50px;"  uk-slidenav-next uk-slider-item="next"></button>
+                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 60px; height: 60px;"  uk-slidenav-next uk-slider-item="next"></button>
                     </div>
                 </div>
                 <div class=" uk-flex uk-visible@xs uk-hidden@m">
                     <div class="uk-position-bottom-left">
-                        <button style="background-color: #191949; border-radius: 50%; border: 2px solid #FD0091; width: 30px; height: 30px;" uk-slidenav-previous uk-slider-item="previous"></button>
+                        <button style="background-color: #191949; border-radius: 50%; border: 1.5px solid #FD0091; width: 30px; height: 30px;" uk-slidenav-previous uk-slider-item="previous"></button>
                     </div>
                     <div class="uk-position-bottom-right">
-                        <button style="background-color: #191949; border-radius: 50%; border: 2px solid #FD0091; width: 30px; height: 30px;" uk-slidenav-next uk-slider-item="next"></button>
+                        <button style="background-color: #191949; border-radius: 50%; border: 1.5px solid #FD0091; width: 30px; height: 30px;" uk-slidenav-next uk-slider-item="next"></button>
                     </div>
                 </div>
           </div>
@@ -184,7 +184,7 @@
          </div>
       </div>
       </div> 
-      <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
+      <!-- <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
           <div class="uk-margin-large-top">
               <p class="text-white font-gilroy-bold uk-margin-large-left t-b-h" style="font-size: 50px; line-height: 59px;">
                   Have heard enough?<br>
@@ -207,7 +207,39 @@
               style="margin-top: 125px;"
               uk-img alt="">
           </div>
-      </div>
+      </div> -->
+      <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
+            <div class="banner1-1">
+                <h1
+                class="uk-margin-large-top uk-margin-large-left banner1 uk-text-bold text-white fontbanner"
+                style="font-size: 50px; line-height: 63px;"
+                >Have heard enough?<br>
+                  Let's Partner Up.
+                </h1>
+                <button class="uk-margin-large-left uk-margin-medium-top text-white btn-r-b" >
+                    <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                    Works with us
+                    </nuxt-link>
+                </button>
+            </div>
+            <div class="banner2">
+                <img src="~assets/Vector (4).svg"
+                class="uk-position-absolute bannerimg1"
+                style="
+                right: 0;
+                width: 37.3%;
+                height: auto;
+                z-index: 1;"
+                uk-img alt="">
+                <img src="~assets/homepage/Group_18385.svg" 
+                class="uk-position-relative uk-margin-medium-top p-b"
+                style="
+                width: 100%;
+                height: auto;
+                z-index: 1;" 
+                uk-img alt="">
+            </div>
+        </div>
   </div>
 </template>
 
