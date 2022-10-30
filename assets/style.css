@@ -545,6 +545,9 @@ input[type="text"]:focus {
         flex: 1 0 100% !important;
         justify-content: center !important;
     }
+    .creative{
+        padding-left: 20px !important;
+    }
     .p-0{
         padding-left: 0 !important;
     }
