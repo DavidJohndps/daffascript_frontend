@@ -204,6 +204,7 @@
                 <img src="~assets/pana.svg" 
                 class="uk-position-relative bannerimg2"
                 style="
+                right: 10px;
                 width: 500px;
                 height: auto;
                 z-index: 1;" 

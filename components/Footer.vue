@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="uk-container">
+    <div class="uk-margin-medium-left">
         <div 
         class=" uk-margin-large-top uk-margin-medium-right
         "

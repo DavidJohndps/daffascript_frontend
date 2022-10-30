@@ -1,12 +1,13 @@
 <template>
    <div>
-        <div class="uk-margin-medium-left posi">
+        <div class="uk-container">
+            <div class="uk-margin-medium-left posi">
                 <img src="~assets/Group_60.svg" 
                 class="uk-position-absolute uk-position-right uk-visible@m "
                 style="z-index: -1; width: 750px;" 
                 uk-img alt="">
                 <div class="uk-margin-medium-left uk-margin-large-top uk-container uk-child-width-1-2@s cardt2" uk-grid>
-                    <div class="text-white uk-margin-medium-top  uk-visible@m">
+                    <div class="text-white uk-margin-medium-top uk-padding-remove-left uk-visible@m">
                         <p class="font-gilroy-bold"
                         style="font-size: 70px; line-height: 82px;"
                         >Our<br>Service</p>
@@ -109,6 +110,7 @@
                 </div>
             </div>
         </div>
+        </div>
         <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
@@ -135,6 +137,7 @@
                 <img src="~assets/pana.svg" 
                 class="uk-position-relative bannerimg2"
                 style="
+                right: 10px;
                 width: 500px;
                 height: auto;
                 z-index: 1;" 

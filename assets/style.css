@@ -773,7 +773,8 @@ input[type="text"]:focus {
         height: 230px !important;
     }
     .textcs{
-        font-size: 10px !important;
+        font-size: 8px !important;
+        text-align: center !important;
     }
     .cardt1-bn{
        margin-top: 45px !important;
