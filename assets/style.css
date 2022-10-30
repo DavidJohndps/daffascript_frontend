@@ -96,6 +96,12 @@ input[type="text"]:focus {
     border: 3px solid #FD0091;
 }
 
+.btn-s:hover{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none;
+    transition-duration: 0.4s;
+}
+
 .bg-gra{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%);
 }
@@ -111,11 +117,11 @@ input[type="text"]:focus {
     border: 3px solid #FD0091;
 }
 
-/* .b-start:hover{
+.b-start:hover{
     background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
     border: none;
     transition-duration: 0.4s;
-} */
+}
 
 .b-know{
     font-size: 20px;
@@ -581,7 +587,7 @@ input[type="text"]:focus {
     }
     .carditems-r{
         width: 44% !important;
-        height: 183px !important;
+        height: 186px !important;
     }
     .carditems{
         width: 80% !important;

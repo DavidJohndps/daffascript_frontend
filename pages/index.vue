@@ -79,7 +79,7 @@
                     </p>
                 </div>
                <div class="uk-container">
-                    <div class="uk-flex uk-child-width-1-2@s uk-child-width-1-3@m uk-align-center cardhome1" uk-grid style="margin-left: 22px;">
+                    <div class="uk-flex uk-child-width-1-2@s uk-child-width-1-3@m uk-align-center cardhome1" uk-grid style="margin-left: 27px;">
                         <div v-for="(exp, index) in expert" :key="index" class="uk-card uk-align-center uk-text-center cardhome1-1" 
                         style="margin-top: 10px; margin-left: 20px; margin-right:0; padding: 20px; width: 353px; height: 537px; filter: drop-shadow(0px 4px 77px #0C0C3D); background-color: #191949; border-radius: 20px;">
                             <div class="uk-card-body card-b-r">
@@ -216,7 +216,7 @@
                 >Have heard enough?<br>
                   Let's Partner Up.
                 </h1>
-                <button class="uk-margin-large-left uk-margin-medium-top text-white btn-r-b" >
+                <button class="uk-margin-large-left uk-margin-small-top text-white btn-r-b" >
                     <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
                     Works with us
                     </nuxt-link>
@@ -227,14 +227,15 @@
                 class="uk-position-absolute bannerimg1"
                 style="
                 right: 0;
-                width: 37.3%;
+                width: 565px;
                 height: auto;
                 z-index: 1;"
                 uk-img alt="">
                 <img src="~assets/homepage/Group_18385.svg" 
-                class="uk-position-relative uk-margin-medium-top p-b"
+                class="uk-position-relative p-b"
                 style="
-                width: 100%;
+                margin-top: 100px;
+                width: 600px;
                 height: auto;
                 z-index: 1;" 
                 uk-img alt="">

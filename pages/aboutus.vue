@@ -239,7 +239,7 @@
 
                 },
                 {
-                    divisi: "Co-Founder, CEO & Head of Designer",
+                    divisi: "Co-Founder & Head Of Development",
                     name: "Dwiyanto S.",
                     url: require("../assets/ourteam/dwi_1.png")
                 },
