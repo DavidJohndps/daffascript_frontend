@@ -40,7 +40,7 @@
       <div class="uk-container">
           <div class="uk-margin-large-left uk-margin-xlarge-top uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l uk-visible@m imghome">
               <div v-for="(clients, index) in client" :key="index">
-                  <img :src="clients.logo" alt="">
+                  <img :src="clients.logo" class="uk-align-center" alt="">
               </div>
           </div>
       </div>
