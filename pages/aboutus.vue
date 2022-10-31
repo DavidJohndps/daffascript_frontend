@@ -86,9 +86,9 @@
             <div class="uk-child-width-1-2@s uk-child-width-1-3@m card-r" uk-grid style="margin-left: 16px;">
                 <div v-for="(img, index) in images" :key="index"
                     class="uk-card bg-card carditems-r uk-padding-remove-left c-r" uk-grid
-                    style="width: 360px; height: 420px; margin-left: 20px; margin-top: 20px; overflow:hidden;" 
+                    style="width: 360px; height: 400px; margin-left: 20px; margin-top: 20px; overflow:hidden;" 
                     >
-                    <div class="uk-card-body mr-team">
+                    <div class="uk-card-body mr-team" style="padding-bottom: 0;">
                         <p class="font-gilroy-medium titledivisi">{{img.divisi}}</p>
                         <p class="font-gilroy-bold text-white titlename">{{img.name}}</p>
                     </div>
@@ -240,6 +240,11 @@
 
                 },
                 {
+                    divisi: "CO-Founder, Technical Project Manager & IT Security",
+                    name: "Fauzan Amrian",
+                    url: require("../assets/ourteam/fauzan.png")
+                },
+                {
                     divisi: "Co-Founder & Head Of Development",
                     name: "Dwiyanto S.",
                     url: require("../assets/ourteam/dwi_1.png")
@@ -248,11 +253,6 @@
                     divisi: "CO-Founder & Lead UI UX Deisgner",
                     name: "Yosia Enrique",
                     url: require("../assets/ourteam/yosia.png")
-                },
-                {
-                    divisi: "CO-Founder, Technical Project Manager & IT Security",
-                    name: "Fauzan Amrian",
-                    url: require("../assets/ourteam/fauzan.png")
                 },
                 {
                     divisi: "Project Manager & Business Analayst",
