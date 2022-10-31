@@ -181,13 +181,13 @@
         <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
-                class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
-                style="font-size: 45px; line-height: 63px;"
+                class="uk-margin-large-top banner1 font-gilroy-bold text-white fontbanner"
+                style="font-size: 45px; line-height: 63px; margin-left: 150px"
                 >Got questions? We've<br>
                 got answers. Let's talk!
                 </h1>
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    <button class="uk-margin-xlarge-left uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" >
+                    <button class="uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" style="margin-left: 150px;">
                     Contact Us
                     </button>
                 </nuxt-link>

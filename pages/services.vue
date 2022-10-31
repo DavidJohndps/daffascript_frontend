@@ -22,7 +22,7 @@
                             <p class="font-gilroy-bold text-white textcs" style="font-size: 17px; line-height: 28px;">Landing Page Design</p>
                         </div>
                         </div>
-                        <div class="uk-margin-small-left uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px; margin-top: 40px;">
+                        <div class="uk-margin-small-left uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px; margin-top: 80px;">
                         <div class="cardt1-bn uk-margin-medium-top">
                             <img src="~assets/services/mobiledesign.svg" class="cardt-img uk-align-center uk-margin-remove-bottom" style="width:150px; margin-bottom: 30px;" uk-img>
                             <p class="font-gilroy-bold text-white uk-text-center textcs" style="margin-top: 10px; font-size: 17px; line-height: 28px;">Mobile App Design</p>
@@ -105,13 +105,13 @@
         <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
-                class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
-                style="font-size: 45px; line-height: 63px;"
+                class="uk-margin-large-top banner1 font-gilroy-bold text-white fontbanner"
+                style="font-size: 45px; line-height: 63px; margin-left: 150px;"
                 >Got questions? We've<br>
                 got answers. Let's talk!
                 </h1>
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    <button class="uk-margin-xlarge-left uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" >
+                    <button class="uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" style="margin-left: 150px;" >
                     Contact Us
                     </button>
                 </nuxt-link>
