@@ -31,6 +31,7 @@
                 <img :src="work.profile" class="profile" style="border-radius: 56px 0 0 56px;"/>
                 <img :src="work.logo" class="logoworks" style="width:250px"/>
             </div>
+            <div class="uk-margin-xlarge-bottom"></div>
         </div>
     </div>
 </template>

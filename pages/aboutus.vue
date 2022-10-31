@@ -30,7 +30,7 @@
         <div class=
         "uk-margin-xlarge-top 
         uk-flex
-        -font-gilroy-bold
+        font-gilroy-bold
         aboutus-2
         uk-column-1-2@s uk-column-1-3@m
         " uk-grid style="justify-content: center;">
@@ -80,7 +80,7 @@
             text-white
             heading
             " 
-            style="font-size: 32px;">
+            style="font-size: 40px;">
                 Our Team
             </p>
             <div class="uk-child-width-1-2@s uk-child-width-1-3@m card-r" uk-grid style="margin-left: 16px;">
@@ -99,7 +99,7 @@
         <div class=
         "uk-container
         uk-margin-large-top mr-ra">
-            <p class="uk-text-center uk-text-large uk-text-bold text-white heading" style="font-size:30px;">
+            <p class="uk-text-center uk-text-large uk-text-bold text-white heading" style="font-size:40px;">
                 Our Values
             </p>
             <div class="uk-margin-large-top ourvalues">
@@ -181,16 +181,16 @@
         <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
-                class="uk-margin-large-top uk-margin-large-left banner1 uk-text-bold text-white fontbanner"
+                class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
                 style="font-size: 50px; line-height: 63px;"
                 >Got questions? We've<br>
                 got answers. Let's talk!
                 </h1>
-                <button class="uk-margin-large-left uk-margin-medium-top text-white b-contact buttonbanner" >
-                    <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                    <button class="uk-margin-xlarge-left uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" >
                     Contact Us
-                    </nuxt-link>
-                </button>
+                    </button>
+                </nuxt-link>
             </div>
             <div class="banner2">
                 <img src="~assets/Vector (4).svg"
@@ -204,7 +204,7 @@
                 <img src="~assets/pana.svg" 
                 class="uk-position-relative bannerimg2"
                 style="
-                right: 10px;
+                right: 0;
                 width: 500px;
                 height: auto;
                 z-index: 1;" 

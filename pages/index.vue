@@ -17,11 +17,11 @@
                       best for your businness
                   </p>
              </div>
-              <button class="uk-margin-medium-top text-white b-start uk-visible@m imghome" >
-                <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+             <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                <button class="uk-margin-medium-top text-white b-start uk-visible@m imghome" >
                     Let's start!
-                </nuxt-link>
-              </button>
+                </button>
+             </nuxt-link>
               <div class="uk-margin-medium-top uk-card uk-column-1-2@s uk-column-1-3@m uk-text-center cardhome" style="width: 500px; height: 126px; padding: 20px 15px 5px 15px; border-radius: 18px; background-color: #191949;">
                   <div  v-for="(textcard, index) in card" :key="index">
                      <p class="text-white uk-margin-remove-bottom texttotal" style="font-size: 33px; font-weight: 700; line-height:164.5%;">
@@ -45,20 +45,22 @@
           </div>
       </div>
      <div class="uk-container">
-        <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1100px; height: 512px;">
-          <div class="uk-margin-medium-top uk-margin-medium-left pagehome2-2" style="z-index: 1;">
-              <p class="font-gilroy-bold text-white texthome3" style="font-size:40px; line-height: 139%;">
+        <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1120px; height: 511px;">
+          <div class="uk-margin-medium-left pagehome2-2" style="z-index: 1; margin-top: 47px;">
+              <p class="font-gilroy-bold text-white texthome3" style="font-size:40px; line-height: 139%; padding-left: 25px;">
                   The success of your businness<br>
                   starts here, <span class="gradient">With Us.</span>
               </p>
-              <p class="font-gilroy-medium texthome2" style="font-size: 24px; line-height: 161%; color: rgba(255, 255, 255, 0.62);">
+              <p class="font-gilroy-medium texthome2" style="font-size: 24px; line-height: 161%; color: rgba(255, 255, 255, 0.62); padding-left: 25px;">
                   With a leading team of designer and developers, we<br>
                   have created countless of outstanding works and<br>
                   helped many businesses all over the world
               </p>
-              <button class="uk-margin-medium-top uk-margin-medium-left text-white b-know buttonknow" >
-                  <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">Know our team</nuxt-link>
-              </button>
+              <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">
+                <button class="uk-margin-medium-top text-white b-know buttonknow" style="margin-left: 25px;">
+                  Know our team
+                </button>
+              </nuxt-link>
           </div>
           <div class="uk-visible@m">
                 <img src="~assets/homepage/image.svg" style="border-radius: 0 56px 56px 0; z-index: -1;" uk-img alt="">
@@ -74,14 +76,14 @@
     <div class="uk-container">
           <div class="uk-margin-xlarge-top" >
                 <div>
-                    <p class="text-white font-gilroy-bold uk-text-center texthome4" style="font-size: 50px; line-height: 59px;">
+                    <p class="font-gilroy-bold uk-text-center texthome4" style="font-size: 50px; line-height: 59px; color: white;">
                         Our line of expertise
                     </p>
                 </div>
-               <div class="uk-container">
-                    <div class="uk-flex uk-child-width-1-2@s uk-child-width-1-3@m uk-align-center cardhome1" uk-grid style="margin-left: 27px;">
+               <div class="uk-container uk-margin-large-top">
+                    <div class="uk-flex uk-child-width-1-2@s uk-child-width-1-3@m uk-align-center cardhome1" uk-grid style="margin-left: 11px;">
                         <div v-for="(exp, index) in expert" :key="index" class="uk-card uk-align-center uk-text-center cardhome1-1" 
-                        style="margin-top: 10px; margin-left: 20px; margin-right:0; padding: 20px; width: 353px; height: 537px; filter: drop-shadow(0px 4px 77px #0C0C3D); background-color: #191949; border-radius: 50px;">
+                        style="margin-top: 10px; margin-left: 35px; margin-right:0; padding: 20px; width: 340px; height: 537px; filter: drop-shadow(0px 4px 50px #0C0C3D); background-color: #191949; border-radius: 50px;">
                             <div class="uk-card-body card-b-r cardourline" style="padding-left: 0; padding-right: 0;">
                                 <img :src="exp.pict" alt="">
                                 <p class="text-white cardhome1-a" style="font-size: 25px; line-height: 35px; font-weight: 700">{{exp.name}}</p>
@@ -103,13 +105,15 @@
                   <div v-for="(img, index) in images" :key="index" 
                   class="uk-card cardworks uk-margin-medium-left uk-margin-large-top uk-padding-remove-right uk-column-1-2@s uk-flex"  
                   style="width: 1100px; height: 300px; background-color: #191949; border-radius: 56px; overflow: hidden;">
-                      <img :src="img.logo" class=" logohpr" style="margin-left: 25px; width:250px;"/>
+                      <img :src="img.logo" class=" logohpr" style="margin-left: 55px; width:250px;"/>
                       <img :src="img.profile" class="profilehpr uk-position-right" style="border-radius: 0 56px 56px 0; "/>
                   </div>
                   <div class="uk-margin-medium-top uk-flex uk-margin uk-text-center">
-                      <button class="b-show uk-text-center uk-margin-auto uk-margin-vertical uk-width-1-2@s">
-                        <nuxt-link to="/Works" style="text-decoration: none; color: #fff;">Some More Works</nuxt-link>
-                      </button>
+                    <nuxt-link to="/Works" style="text-decoration: none; color: #fff;" class="uk-text-center uk-margin-auto uk-margin-vertical uk-width-1-2@s">
+                        <button class="b-show text-white">
+                        Some More Works
+                        </button>
+                    </nuxt-link>
                   </div>
               </div>
           </div>
@@ -125,9 +129,9 @@
                   Words from our partners
               </p>
           </div>
-          <div class="uk-position-relative uk-visible-toggle uk-light uk-flex tec3" tabindex="-1" uk-slider="side: true">
+          <div class="uk-position-relative uk-visible-toggle uk-light uk-flex tec3" tabindex="-1" uk-slider="side: true" style="max-height: 320px;">
                 <ul class="uk-slider-items" uk-height-viewport="offset-top: true; offset-bottom: 30">
-                    <li class="tec2" v-for="(partner, index) in partners" :key="index" >
+                    <li class="tec2" v-for="(partner, index) in partners" :key="index" style="max-height: 320px;">
                         <div class="uk-margin-large-top mr-user">
                             <img :src="partner.pict" class="imguser" style="width: 300px;" uk-img alt="">
                         </div>
@@ -173,9 +177,9 @@
           <div class="text-white font-gilroy-bold">
               <p class="re-tec-text" style="font-size: 50px; line-height: 59px;">Technologies we use</p>
           </div>
-          <div class="uk-position-relative uk-visible-toggle uk-light uk-flex uk-margin-remove-top tec1" tabindex="-1" uk-slider="side: true"> 
+          <div class="uk-position-relative uk-visible-toggle uk-light uk-flex uk-margin-remove-top tec1" tabindex="-1" uk-slider="side: true" style="max-height: 180px;"> 
               <ul class="uk-slider-items uk-child-width-1-6@s uk-child-width-1-7@m" uk-height-viewport="offset-top: true; offset-bottom: 30">
-                    <li v-for="(tec, index) in tech" :key="index" class="tec" >
+                    <li v-for="(tec, index) in tech" :key="index" class="tec" style="max-height: 180px;">
                         <img :src="tec.logo" style="width: 100px;" alt="">
                     </li>
             </ul>
@@ -211,16 +215,16 @@
       <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
-                class="uk-margin-large-top uk-margin-large-left banner1 uk-text-bold text-white fontbanner"
+                class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
                 style="font-size: 50px; line-height: 63px;"
                 >Have heard enough?<br>
                   Let's Partner Up.
                 </h1>
-                <button class="uk-margin-large-left uk-margin-small-top text-white btn-r-b" >
-                    <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                    <button class="uk-margin-xlarge-left uk-margin-small-top text-white btn-r-b font-gilroy-medium" >
                     Works with us
-                    </nuxt-link>
-                </button>
+                    </button>
+                </nuxt-link>
             </div>
             <div class="banner2">
                 <img src="~assets/Vector (4).svg"
@@ -234,6 +238,7 @@
                 <img src="~assets/homepage/Group_18385.svg" 
                 class="uk-position-relative p-b"
                 style="
+                right: 0;
                 margin-top: 100px;
                 width: 600px;
                 height: auto;

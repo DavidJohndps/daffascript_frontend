@@ -21,7 +21,7 @@
                 <div class="card-1" style="padding-left: 13.5px;">
                     <img src="~assets/amico.svg" 
                     class="imgworks1"
-                    style="border-radius: 0px 56px 56px 0px; margin-left: 99px;"
+                    style="border-radius: 0px 56px 56px 0px; margin-left: 99.1px;"
                     uk-img
                     alt="">
                 </div>
@@ -78,18 +78,18 @@
                             </legend>
                             <div class="uk-grid-small form-r uk-margin-medium-top resc" uk-grid>
                                 <div class="uk-width-1-2@s resc">
-                                    <input class="formc r-formt" type="text" placeholder="Name">
+                                    <input class="formc r-formt font-gilroy-medium" type="text" placeholder="Name">
                                 </div>
-                                <div class="uk-width-1-2@s resc" uk-grid>
-                                    <input class="formc r-formt formn mr-c" type="text" placeholder="Phone Number">
+                                <div class="uk-width-1-2@s resc r-nme" uk-grid>
+                                    <input class="formc r-formt formn mr-c font-gilroy-medium" type="text" placeholder="Phone Number">
                                 </div>
-                                <div class="uk-width-1-2@s resc" style="margin-left: 1px;" uk-grid>
-                                    <input class="formc r-formt" type="text" placeholder="Email address">
+                                <div class="uk-width-1-2@s resc" style="margin-left: 1px; margin-top: 8px;" uk-grid>
+                                    <input class="formc r-formt font-gilroy-medium" type="text" placeholder="Email address">
                                 </div>
-                                <div class="uk-width-1-2@s resc formn2" style="margin-left: -13px" uk-grid>
-                                    <input class="formc formn1 r-formt" type="text" placeholder="Your company's name">
+                                <div class="uk-width-1-2@s resc formn2" style="margin-left: -20px; margin-top: 8px;" uk-grid>
+                                    <input class="formc formn1 r-formt font-gilroy-medium" type="text" placeholder="Your company's name">
                                 </div>
-                                <div class="uk-width-1-1 resc" uk-grid>
+                                <div class="uk-width-1-1 resc " style="margin-top: 8px;" uk-grid>
                                     <textarea class="formc1 r-formt1 mr-c font-gilroy-medium uk-margin-medium-left" style="outline: none;" placeholder="Tell us about your project"></textarea>
                                 </div>
                             </div>

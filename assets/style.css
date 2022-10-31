@@ -43,11 +43,19 @@
     padding-top: 10px !important;
 } */
 
+.link-f{
+    color: #FFF;
+}
+
+.link-f:hover{
+    color: #FFF;
+}
+
 .form-r{
     column-count: 2;
 }
 .formc{
-    width: 279px;
+    width: 285px;
     height: 15px;
     background-color: #191949;
     color:rgba(225, 225, 255, 0.62);
@@ -58,7 +66,7 @@
 }
 
 .formn{
-    margin-left: 13px !important;
+    margin-left: 5px !important;
 }
 
 .formn1{
@@ -284,6 +292,9 @@ input[type="text"]:focus {
         margin-right: auto !important;
         padding-left: 0 !important;
     }
+    .r-nme{
+        margin-top: 8px !important;
+    }
     .r-form{
         margin-top: 0 !important;
         margin-left: auto !important;
@@ -367,7 +378,7 @@ input[type="text"]:focus {
         padding-left: 0 !important;
     }
     .pagehome2-2{
-        margin-left: 15px !important;
+        margin-left: 0 !important;
     }
     .texthome3{
         font-size: 20px !important;
@@ -416,6 +427,7 @@ input[type="text"]:focus {
     }
     .logohpr{
         width: 70px !important;
+        margin-left: 14px !important;
     }
     .profilehpr{
         width: 250px !important;

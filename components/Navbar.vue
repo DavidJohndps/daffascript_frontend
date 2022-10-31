@@ -9,15 +9,20 @@
         uk-margin-medium-left
         uk-margin-medium-right
         " > 
-            <div class="uk-navbar-left">
+            <!-- <div class="uk-navbar-left">
                 <img 
                 src="~assets/Logo.svg" 
                 class="logo"
                 uk-img
                 style=""
                 alt="">
+            </div> -->
+            <div class="uk-logo">
+                <nuxt-link to="/" style="text-decoration: none;">
+                    <img src="~assets/Logo.svg" class="logo" uk-img alt="">
+                </nuxt-link>
             </div>
-            <div class="uk-navbar-right" style="font-size: 20px;">
+            <div class="uk-navbar-right" style="font-size: 22px;">
                         <ul class="uk-visible@m" uk-navbar>
                             <li>
                                 <nuxt-link to="/" class="active" style="text-decoration: none;">Home</nuxt-link>

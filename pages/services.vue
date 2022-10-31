@@ -22,21 +22,12 @@
                             <p class="font-gilroy-bold text-white textcs" style="font-size: 17px; line-height: 28px;">Landing Page Design</p>
                         </div>
                         </div>
-                        <div class="uk-margin-small-left uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px;">
+                        <div class="uk-margin-small-left uk-card cardt1" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 300px; margin-top: 40px;">
                         <div class="cardt1-bn uk-margin-medium-top">
                             <img src="~assets/services/mobiledesign.svg" class="cardt-img uk-align-center uk-margin-remove-bottom" style="width:150px; margin-bottom: 30px;" uk-img>
                             <p class="font-gilroy-bold text-white uk-text-center textcs" style="margin-top: 10px; font-size: 17px; line-height: 28px;">Mobile App Design</p>
                         </div>
                         </div>
-                        <!-- <div class="uk-margin-small-left uk-margin-large-top uk-card cardt2" style="background: linear-gradient(180deg, rgba(15, 15,62, 0.02) 0%, rgba(15, 15, 62, 0.4383) 100%); box-shadow: 0px 1px 45px rgba(0, 0, 0, 0.17); border-radius: 8px; z-index: -2; width: 250px; height: 350px;">
-                        <div class="uk-card-body">
-                            <img src="~assets/services/mobiledesign.svg" class="uk-align-center uk-margin-remove-bottom" style="width:150px;" uk-img>
-                            <p class="font-gilroy-bold text-white uk-text-center" style="margin-bottom: 15px;font-size: 17px; line-height: 28px;">Mobile App Design</p>
-                            <button class="uk-align-center" style="border-radius: 50%; padding: 8px; background-color: #191949; border: none;">
-                                <img src="~assets/services/panah.svg" class="cardt1-img" uk-img>
-                            </button>
-                        </div>
-                        </div> -->
                     </div>
                 </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
@@ -59,7 +50,7 @@
                 >Apps</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(app, index) in apps" :key="index" 
-                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 25px; width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
                             {{app.work}}
@@ -114,16 +105,16 @@
         <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1
-                class="uk-margin-large-top uk-margin-large-left banner1 uk-text-bold text-white fontbanner"
+                class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
                 style="font-size: 50px; line-height: 63px;"
                 >Got questions? We've<br>
                 got answers. Let's talk!
                 </h1>
-                <button class="uk-margin-large-left uk-margin-medium-top text-white b-contact buttonbanner" >
-                    <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
+                    <button class="uk-margin-xlarge-left uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" >
                     Contact Us
-                    </nuxt-link>
-                </button>
+                    </button>
+                </nuxt-link>
             </div>
             <div class="banner2">
                 <img src="~assets/Vector (4).svg"
@@ -137,7 +128,7 @@
                 <img src="~assets/pana.svg" 
                 class="uk-position-relative bannerimg2"
                 style="
-                right: 10px;
+                right: 0px;
                 width: 500px;
                 height: auto;
                 z-index: 1;" 
