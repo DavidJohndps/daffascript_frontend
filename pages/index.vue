@@ -18,7 +18,7 @@
                   </p>
              </div>
              <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                <button class="uk-margin-medium-top text-white b-start uk-visible@m imghome" >
+                <button class="uk-margin-medium-top text-white b-start uk-visible@m imghome font-gilroy-medium" >
                     Let's start!
                 </button>
              </nuxt-link>
@@ -57,7 +57,7 @@
                   helped many businesses all over the world
               </p>
               <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">
-                <button class="uk-margin-medium-top text-white b-know buttonknow" style="margin-left: 25px;">
+                <button class="uk-margin-medium-top text-white b-know buttonknow font-gilroy-medium" style="margin-left: 25px;">
                   Know our team
                 </button>
               </nuxt-link>
@@ -110,7 +110,7 @@
                   </div>
                   <div class="uk-margin-medium-top uk-flex uk-margin uk-text-center">
                     <nuxt-link to="/Works" style="text-decoration: none; color: #fff;" class="uk-text-center uk-margin-auto uk-margin-vertical uk-width-1-2@s">
-                        <button class="b-show text-white">
+                        <button class="b-show text-white font-gilroy-medium">
                         Some More Works
                         </button>
                     </nuxt-link>

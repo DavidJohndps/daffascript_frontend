@@ -106,7 +106,7 @@
             <div class="banner1-1">
                 <h1
                 class="uk-margin-large-top uk-margin-xlarge-left banner1 font-gilroy-bold text-white fontbanner"
-                style="font-size: 50px; line-height: 63px;"
+                style="font-size: 45px; line-height: 63px;"
                 >Got questions? We've<br>
                 got answers. Let's talk!
                 </h1>

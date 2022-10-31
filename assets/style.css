@@ -433,7 +433,7 @@ input[type="text"]:focus {
         width: 250px !important;
         border-radius: 0 16px 16px 0 !important;
     }
-    .mr-text{
+    .mr-text{ 
         margin-top: 20px !important;
         margin-bottom: 0 !important;
         margin-left: 20px !important;
