@@ -38,7 +38,7 @@
                             </li>
                             <li>
                                 <button class="b-navbar">
-                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 15px; letter-spacing:0.12em;">Work With Us</nuxt-link>
+                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 16px; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                 </button>
                             </li>
                         </ul>
@@ -84,7 +84,7 @@
     }
     .active1{
         color: #FFFFFF;
-        padding: 8px;
+        padding: 9px;
     }
     .active1:hover{
         color: #FFFFFF;
