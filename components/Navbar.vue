@@ -22,7 +22,7 @@
                     <img src="~assets/Logo.svg" class="logo" uk-img alt="">
                 </nuxt-link>
             </div>
-            <div class="uk-navbar-right " style="font-size: 22px;">
+            <div class="uk-navbar-right " style="font-size: 18px;">
                         <ul class="uk-visible@m" uk-navbar>
                             <li>
                                 <nuxt-link to="/" class="active" style="text-decoration: none; letter-spacing:0.12em;">Home</nuxt-link>
@@ -38,7 +38,7 @@
                             </li>
                             <li>
                                 <button class="b-navbar">
-                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 20px; letter-spacing:0.12em;">Work With Us</nuxt-link>
+                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 18px; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                 </button>
                             </li>
                         </ul>
@@ -48,7 +48,7 @@
                         <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
                             <div class="uk-offcanvas-bar uk-flex uk-flex-column" style="background-color: #000032">
                                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                                <ul class="uk-nav uk-margin-auto-vertical">
+                                <ul class="uk-nav uk-margin-auto-vertical" style="font-size: 13px;">
                                     <li>
                                         <nuxt-link to="/" class="active" style="text-decoration: none; letter-spacing:0.12em;">Home</nuxt-link>
                                     </li> 
@@ -84,7 +84,7 @@
     }
     .active1{
         color: #FFFFFF;
-        padding: 10px;
+        padding: 5px;
     }
     .active1:hover{
         color: #FFFFFF;
