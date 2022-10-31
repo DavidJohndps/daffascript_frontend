@@ -119,7 +119,7 @@
           </div>
       </div>
      <div class="uk-container">
-        <div class=" uk-margin-large-top uk-margin-medium-left homeourpartner">
+        <div class=" uk-margin-xlarge-top uk-margin-medium-left homeourpartner">
           <div class="mr-text">
               <p class="text-white font-gilroy-bold texthome5 uk-visible@m " style="font-size: 50px; line-height: 59px;">
                   What does our recent partners<br>
@@ -173,7 +173,7 @@
       </div>
      </div>
       <div class="uk-container">
-        <div class="uk-margin-large-top uk-margin-medium-left re-tec">
+        <div class="uk-margin-xlarge-top uk-margin-medium-left re-tec">
           <div class="text-white font-gilroy-bold">
               <p class="re-tec-text" style="font-size: 50px; line-height: 59px;">Technologies we use</p>
           </div>
@@ -188,30 +188,6 @@
          </div>
       </div>
       </div> 
-      <!-- <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match b-homep" style="background-color: #191949;" uk-grid>
-          <div class="uk-margin-large-top">
-              <p class="text-white font-gilroy-bold uk-margin-large-left t-b-h" style="font-size: 50px; line-height: 59px;">
-                  Have heard enough?<br>
-                  Let's Partner Up.
-              </p>
-              <button class="b-show text-white uk-margin-medium-top uk-margin-large-left b-r-b">
-                <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    Work With Us
-                </nuxt-link>
-              </button>
-          </div>
-          <div class="banner2">
-              <img src="~assets/Vector (4).svg"
-              class="uk-position-absolute p-b"
-              style="
-              right: 0;"
-              uk-img alt="">
-              <img src="~assets/homepage/Group_18385.svg"
-              class="uk-position-relative p-b-2"
-              style="margin-top: 125px;"
-              uk-img alt="">
-          </div>
-      </div> -->
       <div class="uk-margin-large-top uk-child-width-1-2@s ukgrid-match banner" style="background-color: #191949;" uk-grid>
             <div class="banner1-1">
                 <h1

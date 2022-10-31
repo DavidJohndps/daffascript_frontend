@@ -22,23 +22,23 @@
                     <img src="~assets/Logo.svg" class="logo" uk-img alt="">
                 </nuxt-link>
             </div>
-            <div class="uk-navbar-right" style="font-size: 22px;">
+            <div class="uk-navbar-right " style="font-size: 22px;">
                         <ul class="uk-visible@m" uk-navbar>
                             <li>
-                                <nuxt-link to="/" class="active" style="text-decoration: none;">Home</nuxt-link>
+                                <nuxt-link to="/" class="active" style="text-decoration: none; letter-spacing:0.12em;">Home</nuxt-link>
                             </li> 
                             <li>
-                                <nuxt-link to="/AboutUs" class="active" style="text-decoration: none;">About Us</nuxt-link>
+                                <nuxt-link to="/AboutUs" class="active" style="text-decoration: none; letter-spacing:0.12em;">About Us</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/Services" class="active" style="text-decoration: none;">Services</nuxt-link>
+                                <nuxt-link to="/Services" class="active" style="text-decoration: none; letter-spacing:0.12em;">Services</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/Works" class="active" style="text-decoration: none;">Works</nuxt-link>
+                                <nuxt-link to="/Works" class="active" style="text-decoration: none; letter-spacing:0.12em;">Works</nuxt-link>
                             </li>
                             <li>
                                 <button class="b-navbar">
-                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 20px;">Work With Us</nuxt-link>
+                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 20px; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                 </button>
                             </li>
                         </ul>
@@ -50,20 +50,20 @@
                                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                                 <ul class="uk-nav uk-margin-auto-vertical">
                                     <li>
-                                        <nuxt-link to="/" class="active" style="text-decoration: none;">Home</nuxt-link>
+                                        <nuxt-link to="/" class="active" style="text-decoration: none; letter-spacing:0.12em;">Home</nuxt-link>
                                     </li> 
                                     <li>
-                                        <nuxt-link to="/AboutUs" class="active" style="text-decoration: none;">About Us</nuxt-link>
+                                        <nuxt-link to="/AboutUs" class="active" style="text-decoration: none; letter-spacing:0.12em;">About Us</nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/Services" class="active" style="text-decoration: none;">Services</nuxt-link>
+                                        <nuxt-link to="/Services" class="active" style="text-decoration: none; letter-spacing:0.12em;">Services</nuxt-link>
                                     </li>
                                     <li>
-                                        <nuxt-link to="/Works" class="active" style="text-decoration: none;">Works</nuxt-link>
+                                        <nuxt-link to="/Works" class="active" style="text-decoration: none; letter-spacing:0.12em;">Works</nuxt-link>
                                     </li>
                                     <li>
                                         <button class="uk-button uk-button-default uk-border-pill" style="background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); border: none;">
-                                            <nuxt-link to="/Contact" class="active1" style="text-decoration: none;">Work With Us</nuxt-link>
+                                            <nuxt-link to="/Contact" class="active1" style="text-decoration: none; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                         </button>
                                     </li>
                                 </ul>
