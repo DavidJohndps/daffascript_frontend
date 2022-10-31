@@ -39,11 +39,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* .cardourline:nth-child(2){
+    padding-top: 10px !important;
+} */
+
 .form-r{
     column-count: 2;
 }
 .formc{
-    width: 250px;
+    width: 279px;
     height: 15px;
     background-color: #191949;
     color:rgba(225, 225, 255, 0.62);
@@ -51,6 +55,18 @@
     border-radius: 13px;
     padding: 21px;
     font-size: 20px;
+}
+
+.formn{
+    margin-left: 13px !important;
+}
+
+.formn1{
+    margin-left: 0;
+}
+
+.formn2{
+    padding-left: 0;
 }
 
 input[type="text"]:focus {

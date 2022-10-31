@@ -81,13 +81,13 @@
                                     <input class="formc r-formt" type="text" placeholder="Name">
                                 </div>
                                 <div class="uk-width-1-2@s resc" uk-grid>
-                                    <input class="formc r-formt uk-margin-medium-left mr-c" type="text" placeholder="Phone Number">
+                                    <input class="formc r-formt formn mr-c" type="text" placeholder="Phone Number">
                                 </div>
                                 <div class="uk-width-1-2@s resc" style="margin-left: 1px;" uk-grid>
                                     <input class="formc r-formt" type="text" placeholder="Email address">
                                 </div>
-                                <div class="uk-width-1-2@s resc" style="margin-left: -1px" uk-grid>
-                                    <input class="formc r-formt" type="text" placeholder="Your company's name">
+                                <div class="uk-width-1-2@s resc formn2" style="margin-left: -13px" uk-grid>
+                                    <input class="formc formn1 r-formt" type="text" placeholder="Your company's name">
                                 </div>
                                 <div class="uk-width-1-1 resc" uk-grid>
                                     <textarea class="formc1 r-formt1 mr-c font-gilroy-medium uk-margin-medium-left" style="outline: none;" placeholder="Tell us about your project"></textarea>

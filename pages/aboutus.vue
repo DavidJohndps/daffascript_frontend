@@ -125,7 +125,7 @@
                     </div>
                     <div class="uk-grid-medium uk-flex uk-margin-remove gridvalues" uk-grid>
                         <div class="uk-width-auto our">
-                            <img src="~assets/ourvalues/innovation 1.svg" class="imgval" uk-img alt="">
+                            <img src="~assets/ourvalues/Frame 18828.svg" class="imgval" uk-img alt="">
                         </div>
                         <div class="uk-width-expand our">
                             <p  class="font-gilroy-bold text-white textvalues" style="font-size: 30px; line-height:42px;">Tech Development</p>
@@ -250,14 +250,14 @@
                     url: require("../assets/ourteam/yosia.png")
                 },
                 {
+                    divisi: "CO-Founder, Technical Project Manager & IT Security",
+                    name: "Fauzan Amrian",
+                    url: require("../assets/ourteam/fauzan.png")
+                },
+                {
                     divisi: "Project Manager & Business Analayst",
                     name: "Putri Alina",
                     url: require("../assets/ourteam/putri.png")
-                },
-                {
-                    divisi: "Technical Project Manager & IT Security",
-                    name: "Fauzan Amrian",
-                    url: require("../assets/ourteam/fauzan.png")
                 },
                 {
                     divisi: "Lead Backend Developer",

@@ -45,7 +45,7 @@
                 >Web</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(web, index) in webs" :key="index" 
-                    class="uk-margin-medium-left uk-card uk-text-center cardservices services csw res" style="width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices services csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white">
                             {{web.work}}
@@ -59,7 +59,7 @@
                 >Apps</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(app, index) in apps" :key="index" 
-                    class="uk-margin-medium-left uk-card uk-text-center cardservices csw res" style="width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 25px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
                             {{app.work}}
@@ -73,7 +73,7 @@
                 >Branding & Marketing</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(brand, index) in brands" :key="index" 
-                    class="uk-margin-medium-left uk-card uk-text-center cardservices csw res" style="width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
                             {{brand.work}}
@@ -87,7 +87,7 @@
                 >Illustrations & Motion</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(illu, index) in illus" :key="index" 
-                    class="uk-margin-medium-left uk-card uk-text-center cardservices csw res" style="width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
                             {{illu.work}}
@@ -101,7 +101,7 @@
                 >Development</p>
                 <div class="uk-flex uk-padding-remove-left res1" uk-grid>
                     <div v-for="(dev, index) in devs" :key="index" 
-                    class="uk-margin-medium-left uk-card uk-text-center cardservices csw res" style="width: auto; padding: 15px 25px 15px 25px; "
+                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
                     >
                         <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
                             {{dev.work}}
