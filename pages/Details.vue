@@ -43,7 +43,7 @@
       
 
 
-      <!-- <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-large-top uk-flex" uk-grid>
+      <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-large-top uk-flex" uk-grid>
     <div>
         <div class="uk-card img-empat">
           <img
@@ -76,13 +76,13 @@
             />
         </div>
     </div>
-</div> -->
+</div>
 
-  <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-large-top uk-flex" uk-grid>
+  <!-- <div class="uk-child-width-1-2@s uk-child-width-1-3@m img-empat uk-margin-large-top uk-flex" uk-grid>
     <div v-for="(img,index) in images" :key="index">
     <img :src="img.url">
   </div>
-  </div>
+  </div> -->
 
 
     <div class="Starbucks uk-margin-large-top "> 
@@ -134,24 +134,24 @@
         }
       ],
     },
-    data(){
-      return{
-        images: [
-          {
-            url: require("../assets/Details/Card.svg")
-          },
-          {
-            url: require("../assets/Details/Home.svg")
-          },
-          {
-            url: require("../assets/Details/Orders.svg")
-          },
-          {
-            url: require("../assets/Details/Rewards.svg")
-          }
-        ]
-      }
-    },
+    // data(){
+    //   return{
+    //     images: [
+    //       {
+    //         url: require("../assets/Details/Card.svg")
+    //       },
+    //       {
+    //         url: require("../assets/Details/Home.svg")
+    //       },
+    //       {
+    //         url: require("../assets/Details/Orders.svg")
+    //       },
+    //       {
+    //         url: require("../assets/Details/Rewards.svg")
+    //       }
+    //     ]
+    //   }
+    // },
     name: "IndexPage",
       layout: "Details_Layout",
       components: { Navbar }
@@ -196,7 +196,7 @@
       font-size: 25px;
     }
 
-    .works-button{
+    /* .works-button{
       width: 226px; 
       height: 58px; 
       --border-width: 3px;
@@ -220,6 +220,23 @@
       left: var(--border-width);
       border-radius: calc(var(--border-radius) - var(--border-width));
       z-index: -1;
+    } */
+
+    .works-button{
+      width: 250px;
+      height: 65px;
+      border-radius: 75px;
+      border: 3px solid #FD0091;
+      background-color: #000032;
+      text-transform: capitalize;
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .works-button:hover{
+      background: linear-gradient(#FD0091, #FD0091, #FF7732);
+      border: none;
+      height: 60px;
     }
 
     
@@ -315,9 +332,9 @@
       }
 
       .works-button{
-        width: 170px; 
-        height: 45px; 
-        border-radius: 60px;
+        width: 220px; 
+        height: 60px; 
+        border-radius: 50px;
       }
     }
 
@@ -338,6 +355,13 @@
 
       .img-empat{
         width: 120px;
+      }
+
+      .works-button{
+        width: 180px; 
+        height: 55px; 
+        border-radius: 30px;
+        font-size: 16px;
       }
     }
 
@@ -381,6 +405,13 @@
       .text{
         font-size: 14px;
       }
+
+      .works-button{
+        width: 160px; 
+        height: 50px; 
+        border-radius: 30px;
+        font-size: 15px;
+      }
     }
 
     @media only screen and (max-width: 433px){
@@ -421,6 +452,13 @@
         }
 
         .text{
+          font-size: 12px;
+        }
+
+        .works-button{
+          width: 150px; 
+          height: 45px; 
+          border-radius: 20px;
           font-size: 12px;
         }
     }
