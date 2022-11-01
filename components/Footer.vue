@@ -54,8 +54,12 @@
                     >
                     <nuxt-link to="/AboutUs" class="link-f" style="text-decoration: none;">About Us</nuxt-link>
                     </p>
-                    <p>Our Team</p>
-                    <p>Recent Projects</p>
+                    <nuxt-link to="/AboutUs" class="link-f" style="text-decoration: none;">
+                        <p>Our Team</p>
+                    </nuxt-link>
+                    <nuxt-link to="/Works" class="link-f" style="text-decoration: none;">
+                        <p>Recent Projects</p>
+                    </nuxt-link>
                 </div>
                 <div class="re-fo text-re">
                     <p

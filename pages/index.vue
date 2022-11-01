@@ -45,16 +45,16 @@
           </div>
       </div>
      <div class="uk-container">
-        <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1120px; height: 511px;">
-          <div class="uk-margin-medium-left pagehome2-2" style="z-index: 1; margin-top: 47px;">
-              <p class="font-gilroy-bold text-white texthome3" style="font-size:40px; line-height: 139%; padding-left: 25px;">
+        <div class=" uk-flex uk-align-center uk-margin-xlarge-top uk-padding-remove-right pagehome2" style="background-color: #191949; border-radius: 56px; width: 1119.9px; height: 511px;">
+          <div class="pagehome2-2" style="z-index: 1; margin-top: 47px; margin-left: 40px;">
+              <p class="font-gilroy-bold text-white texthome3" style="font-size:39.7px; line-height: 139%; padding-left: 24px;">
                   The success of your businness<br>
                   starts here, <span class="gradient">With Us.</span>
               </p>
               <p class="font-gilroy-medium texthome2" style="font-size: 24px; line-height: 161%; color: rgba(255, 255, 255, 0.62); padding-left: 25px;">
-                  With a leading team of designer and developers, we<br>
-                  have created countless of outstanding works and<br>
-                  helped many businesses all over the world
+                  With a leading team of designer and developers,
+                  <br>we have created countless of outstanding
+                  works<br>and helped many businesses all over the world
               </p>
               <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">
                 <button class="uk-margin-medium-top text-white b-know buttonknow font-gilroy-medium" style="margin-left: 25px;">
@@ -62,9 +62,9 @@
                 </button>
               </nuxt-link>
           </div>
-          <div class="uk-visible@m">
+            <div class="uk-visible@m" style="margin-left: 24px;">
                 <img src="~assets/homepage/image.svg" style="border-radius: 0 56px 56px 0; z-index: -1;" uk-img alt="">
-        </div>
+            </div>
           <div class="uk-position-absolute uk-visible@xs uk-hidden@m">
               <img src="~assets/vectorhome.svg" style="margin-right: 10px; z-index: -2; margin-top: 157px; width: 327px; border-radius: 0 0 15px 15px;" uk-img>
           </div>
@@ -87,7 +87,7 @@
                             <div class="uk-card-body card-b-r cardourline" style="padding-left: 0; padding-right: 0;">
                                 <img :src="exp.pict" alt="">
                                 <p class="text-white cardhome1-a" style="font-size: 25px; line-height: 35px; font-weight: 700">{{exp.name}}</p>
-                                <p class="text-white cardhome1-b" style="font-size: 22px; line-height: 28px; font-weight: 400">{{exp.title}}</p>
+                                <p class="cardhome1-b" style="font-size: 22px; line-height: 28px; font-weight: 400; color: rgba(255, 255, 255, 0.62);">{{exp.title}}</p>
                             </div>
                         </div>
                     </div>

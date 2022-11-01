@@ -34,11 +34,14 @@
                                 <nuxt-link to="/Services" class="active" style="text-decoration: none; letter-spacing:0.12em;">Services</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/Works" class="active" style="text-decoration: none; letter-spacing:0.12em;">Works</nuxt-link>
+                                <nuxt-link to="/Works" class="active" style="text-decoration: none; letter-spacing:0.12em;" @click="showProject">
+                                    Works
+                                    <lazyProductCard v-if="show" />
+                                </nuxt-link>
                             </li>
                             <li>
                                 <button class="b-navbar">
-                                    <nuxt-link to="/Contact" class="active1" style="text-decoration: none; font-size: 16px; letter-spacing:0.12em;">Work With Us</nuxt-link>
+                                    <nuxt-link to="/Contact" class="active1 font-gilroy-medium" style="text-decoration: none; font-size: 16px; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                 </button>
                             </li>
                         </ul>
@@ -63,7 +66,7 @@
                                     </li>
                                     <li>
                                         <button class="uk-button uk-button-default uk-border-pill" style="background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); border: none;">
-                                            <nuxt-link to="/Contact" class="active1" style="text-decoration: none; letter-spacing:0.12em;">Work With Us</nuxt-link>
+                                            <nuxt-link to="/Contact" class="active1 font-gilroy-medium" style="text-decoration: none; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                         </button>
                                     </li>
                                 </ul>
@@ -96,5 +99,19 @@
     
 
 </style>
+<script> 
+    export default{
+        data(){
+            return{
+                 show:false
+            }
+        },
+        methods: {
+            showProject() {
+                this.show = true
+            }
+        }
+    }
+</script>
 
 

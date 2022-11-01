@@ -12,7 +12,7 @@
                         style="font-size: 70px; line-height: 82px;"
                         >Our<br>Service</p>
                         <p class="font-gilroy-medium"
-                        style="font-size: 26px; line-height: 30px;"
+                        style="font-size: 26px; line-height: 46px;"
                         >We offer a wide range of services and<br>provides complete client satisfication</p>
                     </div> 
                     <div class="uk-flex cardt">
@@ -186,9 +186,6 @@
                         work: "Web 3.0 Design"
                     },
                     {
-                        work: "Shopify Design & Dev"
-                    },
-                    {
                         work: "Saas"
                     }
                 ],
@@ -313,9 +310,6 @@
                     }
                 ],
                 devs: [
-                    {
-                        work: "Shopify Development"
-                    },
                     {
                         work: "Webflow Development"
                     },

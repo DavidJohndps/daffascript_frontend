@@ -33,6 +33,7 @@
             </div>
             <div class="uk-margin-xlarge-bottom"></div>
         </div>
+        <!-- <lazyProductCard v-if="show" /> -->
     </div>
 </template>
 
@@ -52,6 +53,9 @@
             }
         },
         data(){
+            // return{
+            //     show:false
+            // }
             return{
                 works: [
                     {
@@ -92,6 +96,6 @@
                     }
                 ],
             }
-        }
+        },
     };
 </script>
