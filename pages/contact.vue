@@ -84,13 +84,13 @@
                                     <input class="formc r-formt formn mr-c font-gilroy-medium" type="text" placeholder="Phone Number">
                                 </div>
                                 <div class="uk-width-1-2@s resc" style="margin-left: 1px; margin-top: 8px;" uk-grid>
-                                    <input class="formc r-formt font-gilroy-medium" type="text" placeholder="Email address">
+                                    <input class="formc r-formt font-gilroy-medium" type="text" placeholder="Email Address">
                                 </div>
                                 <div class="uk-width-1-2@s resc formn2" style="margin-left: -20px; margin-top: 8px;" uk-grid>
-                                    <input class="formc formn1 r-formt font-gilroy-medium" type="text" placeholder="Your company's name">
+                                    <input class="formc formn1 r-formt font-gilroy-medium" type="text" placeholder="Your Company's Name">
                                 </div>
                                 <div class="uk-width-1-1 resc " style="margin-top: 8px;" uk-grid>
-                                    <textarea class="formc1 r-formt1 mr-c font-gilroy-medium uk-margin-medium-left" style="outline: none;" placeholder="Tell us about your project"></textarea>
+                                    <textarea class="formc1 r-formt1 mr-c font-gilroy-medium uk-margin-medium-left" style="outline: none;" placeholder="Tell Us About Your Project"></textarea>
                                 </div>
                             </div>
                             <button class="btn-s uk-margin-medium-top r-forms text-white font-gilroy-bold">

@@ -18,7 +18,7 @@
                   </p>
              </div>
              <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                <button class="uk-margin-medium-top text-white b-start uk-visible@m imghome font-gilroy-medium" >
+                <button class="uk-margin-medium-top text-white b-start button-gra uk-visible@m imghome font-gilroy-medium" >
                     Let's start!
                 </button>
              </nuxt-link>
@@ -38,7 +38,7 @@
           </div>
       </div>
       <div class="uk-container">
-          <div class="uk-margin-large-left uk-margin-xlarge-top uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l uk-visible@m imghome">
+          <div class="uk-margin-xlarge-top uk-column-1-2@s uk-column-1-3@m uk-column-1-4@l uk-visible@m imghome">
               <div v-for="(clients, index) in client" :key="index">
                   <img :src="clients.logo" class="uk-align-center" alt="">
               </div>
@@ -57,7 +57,7 @@
                   works<br>and helped many businesses all over the world
               </p>
               <nuxt-link to="/AboutUs" style="text-decoration: none; z-index: 2; color: #fff">
-                <button class="uk-margin-medium-top text-white b-know buttonknow font-gilroy-medium" style="margin-left: 25px;">
+                <button class="uk-margin-medium-top text-white b-know buttonknow button-gra font-gilroy-medium" style="margin-left: 25px;">
                   Know our team
                 </button>
               </nuxt-link>
@@ -110,7 +110,7 @@
                   </div>
                   <div class="uk-margin-medium-top uk-flex uk-margin uk-text-center">
                     <nuxt-link to="/Works" style="text-decoration: none; color: #fff;" class="uk-text-center uk-margin-auto uk-margin-vertical uk-width-1-2@s">
-                        <button class="b-show text-white font-gilroy-medium">
+                        <button class="b-show button-gra text-white font-gilroy-medium">
                         Some More Works
                         </button>
                     </nuxt-link>
@@ -155,10 +155,10 @@
                 </ul>
                 <div class="uk-margin-large-top uk-flex uk-visible@m btnhome uk-position-bottom-right">
                     <div class="uk-position-small">
-                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 60px; height: 60px;" uk-slidenav-previous uk-slider-item="previous"></button>
+                        <button class="button-gra" style="background-color: #191949; border-radius: 50%; width: 60px; height: 60px;" uk-slidenav-previous uk-slider-item="previous"></button>
                     </div>
                     <div class="uk-position-small">
-                        <button style="background-color: #191949; border-radius: 50%;  border: 3px solid #FD0091; width: 60px; height: 60px;"  uk-slidenav-next uk-slider-item="next"></button>
+                        <button class="button-gra" style="background-color: #191949; border-radius: 50%; width: 60px; height: 60px;"  uk-slidenav-next uk-slider-item="next"></button>
                     </div>
                 </div>
                 <div class=" uk-flex uk-visible@xs uk-hidden@m">
@@ -197,7 +197,7 @@
                   Let's Partner Up.
                 </h1>
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    <button class="uk-margin-xlarge-left uk-margin-small-top text-white btn-r-b font-gilroy-medium" >
+                    <button class="uk-margin-xlarge-left uk-margin-small-top text-white btn-r-b  button-gra font-gilroy-medium" >
                     Works with us
                     </button>
                 </nuxt-link>
@@ -274,17 +274,17 @@
                   {
                       pict: require("../assets/homepage/ui_ux.svg"),
                       name: "UI UX Designing",
-                      title: "We will design you an eyeplasing, easy to use and easy to code website/application"
+                      title: "We will design you an eyeplasing, easy to use and easy to code website/ application"
                   },
                   {
                       pict: require("../assets/homepage/webapp.svg"),
                       name: "Web App Development",
-                      title: "We will design you an eyeplasing, easy to use and easy to code website/application"
+                      title: "We will design you an eyeplasing, easy to use and easy to code website/ application"
                   },
                   {
                       pict: require("../assets/homepage/mobileap.svg"),
                       name: "Mobile App Development",
-                      title: "We will design you an eyeplasing, easy to use and easy to code website/application"
+                      title: "We will design you an eyeplasing, easy to use and easy to code website/ application"
                   }
               ],
               images: [
