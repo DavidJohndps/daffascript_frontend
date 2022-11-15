@@ -27,21 +27,8 @@
         </div>
         </div>
       </div> -->
-      <div class="uk-margin-large-top uk-flex">
-        <div class="uk-margin-medium-right">
-          <div class="uk-card kolom-satu">
-            <p class="font-gilroy-bold uk-text-center text-kolom">
-              UI UX Designing
-            </p>
-          </div>
-        </div>
-        <div class="uk-padding-large-right">
-          <div class="uk-card kolom-dua">
-            <p class="font-gilroy-bold uk-text-center text-kolom">
-              Mobile App Development
-            </p>
-          </div>
-        </div>
+      <div class="uk-margin-xlarge-top uk-margin-large-left containerservices uk-flex" uk-grid>
+        <CardWorkWeb :data="star"/>
       </div>
 
       <!-- <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-large-top uk-flex" uk-grid>
@@ -136,7 +123,7 @@
 
       <center class="uk-margin-large-top">
         <button
-          class="uk-button uk-button-default uk-padding-remove works-button"
+          class="button-gra font-gilroy-medium works-button"
           style=""
         >
           <nuxt-link to="/other_work" style="text-decoration: none; color: white"
@@ -182,6 +169,14 @@ export default {
           url: require('~/assets/cms/Details/Rewards.svg'),
         },
       ],
+      star: [
+        {
+          text: 'UI UX Designing'
+        },
+        {
+          text: 'Mobile App Development'
+        }
+      ]
     }
   },
 }
@@ -225,10 +220,11 @@ export default {
   font-size: 25px;
 }
 
-/* .works-button{
+.works-button{
+      font-size: 15px;
       width: 226px; 
       height: 58px; 
-      --border-width: 3px;
+      --border-width: 4px;
       --border-radius: 75px;
       text-transform: capitalize;
       position: relative;
@@ -249,9 +245,9 @@ export default {
       left: var(--border-width);
       border-radius: calc(var(--border-radius) - var(--border-width));
       z-index: -1;
-    } */
+    }
 
-.works-button {
+/* .works-button {
   width: 250px;
   height: 65px;
   border-radius: 75px;
@@ -266,10 +262,11 @@ export default {
   background: linear-gradient(#fd0091, #fd0091, #ff7732);
   border: none;
   height: 60px;
-}
+} */
 
 @media only screen and (max-width: 1155px) {
   .kolom-satu {
+    margin-left: 20px;
     width: 190px;
     height: 50px;
     border-radius: 8px;

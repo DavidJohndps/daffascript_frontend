@@ -90,7 +90,7 @@
                                     <input class="formc formn1 r-formt font-gilroy-medium" type="text" placeholder="Your company's name">
                                 </div>
                                 <div class="uk-width-1-1 resc " style="margin-top: 8px;" uk-grid>
-                                    <textarea class="formc1 r-formt1 mr-c font-gilroy-medium uk-margin-medium-left" style="outline: none;" placeholder="Tell us about your project"></textarea>
+                                    
                                 </div>
                             </div>
                             <button class="btn-s uk-margin-medium-top r-forms text-white font-gilroy-bold">

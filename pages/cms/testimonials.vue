@@ -132,11 +132,13 @@
           uk-margin-xlarge-bottom
         "
       >
+      <nuxt-link to="create_testimonials">
         <img
           uk-img
           src="~/assets/cms/icon/Create.png"
           style="width: 40px; cursor: pointer; position: fixed"
         />
+      </nuxt-link>
       </div>
     </div>
   </div>
@@ -163,13 +165,19 @@ export default {
     return {
       testimonials: [
         {
-          text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, modi!',
+          name: 'Walter White',
+          name_company: 'Owner of PT. Menthapethamin Suksesindo',
+          desc: 'Daffascript Artworks has helped me in building my business website and it has since increased my sakes significatly',
         },
         {
-          text: 'ipsum',
+          name: 'Walter White',
+          name_company: 'Owner of PT. Menthapethamin Suksesindo',
+          desc: 'Daffascript Artworks has helped me in building my business website and it has since increased my sakes significatly',
         },
         {
-          text: 'Dolor',
+          name: 'Walter White',
+          name_company: 'Owner of PT. Menthapethamin Suksesindo',
+          desc: 'Daffascript Artworks has helped me in building my business website and it has since increased my sakes significatly',
         },
       ],
     }

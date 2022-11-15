@@ -83,17 +83,11 @@
             style="font-size: 40px;">
                 Our Team
             </p>
-            <div class="uk-child-width-1-2@s uk-child-width-1-3@m card-r" uk-grid style="margin-left: 16px;">
-                <div v-for="(img, index) in images" :key="index"
-                    class="uk-card bg-card carditems-r uk-padding-remove-left c-r" uk-grid
-                    style="width: 360px; height: 400px; margin-left: 20px; margin-top: 20px; overflow:hidden;" 
-                    >
-                    <div class="uk-card-body mr-team" style="padding-bottom: 0;">
-                        <p class="font-gilroy-medium titledivisi">{{img.divisi}}</p>
-                        <p class="font-gilroy-bold text-white titlename">{{img.name}}</p>
-                    </div>
-                    <img :src="img.url" class="uk-media-bottom img-team img-t uk-margin-remove-top" style="margin-left: auto; margin-right: auto; padding-left: 0; width: 87%;"/>
-                </div> 
+
+
+
+            <div class="our-team">
+                 <CardAboutImage :images="images"/>
             </div>
         </div>
         <div class=
@@ -187,7 +181,7 @@
                 got answers. Let's talk!
                 </h1>
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    <button class="uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" style="margin-left: 150px;">
+                    <button class="uk-margin-medium-top text-white b-contact buttonbanner button-gra font-gilroy-medium" style="margin-left: 150px;">
                     Contact Us
                     </button>
                 </nuxt-link>
@@ -215,6 +209,7 @@
 </template>
 
 <script>
+    import CardAboutImage from '~/components/CardAboutImage.vue';
 
     export default {
       layout: "default",
@@ -229,6 +224,9 @@
                 }
             ]
         }
+      },
+      components:{
+        CardAboutImage
       },
       data(){
         return {

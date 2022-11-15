@@ -40,7 +40,7 @@
                                 </nuxt-link>
                             </li>
                             <li>
-                                <button class="b-navbar">
+                                <button class="b-navbar button-gra">
                                     <nuxt-link to="/Contact" class="active1 font-gilroy-medium" style="text-decoration: none; font-size: 16px; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                 </button>
                             </li>
@@ -65,7 +65,7 @@
                                         <nuxt-link to="/Works" class="active" style="text-decoration: none; letter-spacing:0.12em;">Works</nuxt-link>
                                     </li>
                                     <li>
-                                        <button class="uk-button uk-button-default uk-border-pill" style="background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); border: none;">
+                                        <button class="b-navbar button-gra">
                                             <nuxt-link to="/Contact" class="active1 font-gilroy-medium" style="text-decoration: none; letter-spacing:0.12em;">Work With Us</nuxt-link>
                                         </button>
                                     </li>

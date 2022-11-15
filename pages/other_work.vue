@@ -25,19 +25,23 @@
                 </div>
             </div>
         </div>
-        <div class="uk-container">
+        <!-- <div class="uk-container">
             <div v-for="(work, index) in works" :key="index" class="uk-card cardworks uk-margin-medium-left uk-margin-large-top uk-flex"  
             style="width: 1100px; height: 300px; background-color: #191949; border-radius: 56px;">
                 <img :src="work.profile" class="profile" style="border-radius: 56px 0 0 56px;"/>
                 <img :src="work.logo" class="logoworks" style="width:250px"/>
             </div>
             <div class="uk-margin-xlarge-bottom"></div>
+        </div> -->
+        <div class="uk-container">
+            <CardOtherWork :works="works"/>
         </div>
         <!-- <lazyProductCard v-if="show" /> -->
     </div>
 </template>
 
 <script>
+import CardOtherWork from '~/components/CardOtherWork';
     export default{
         layout: "default",
         head() {
@@ -51,6 +55,9 @@
                     }
                 ]
             }
+        },
+        components:{
+            CardOtherWork
         },
         data(){
             // return{

@@ -44,11 +44,13 @@
           uk-margin-xlarge-bottom
         "
       >
+      <nuxt-link to="create_service">
         <img
           uk-img
           src="~/assets/cms/icon/Create.png"
           style="width: 40px; cursor: pointer; position: fixed"
         />
+      </nuxt-link>
       </div>
     </div>
   </div>

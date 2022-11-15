@@ -13,11 +13,13 @@
         uk-position-bottom-right uk-margin-xlarge-right uk-margin-xlarge-bottom
       "
     >
+    <nuxt-link to="create_contact">
       <img
         uk-img
         src="~/assets/cms/icon/Create.png"
         style="width: 40px; cursor: pointer; position: fixed"
       />
+    </nuxt-link>
     </div>
   </div>
 </template>
@@ -39,16 +41,32 @@ export default {
     return {
       contact: [
         {
+          name: 'hamba Allah',
           no: '0826312874',
+          email: 'hambaallah@gmail.com',
+          name_company: 'lorem',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsa?',
         },
         {
-          no: '08762342476',
+          name: 'hamba Allah',
+          no: '0826312874',
+          email: 'hambaallah@gmail.com',
+          name_company: 'lorem',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsa?',
         },
         {
-          no: '08879274293',
+          name: 'hamba Allah',
+          no: '0826312874',
+          email: 'hambaallah@gmail.com',
+          name_company: 'lorem',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsa?',
         },
         {
-          no: '08792348587',
+          name: 'hamba Allah',
+          no: '0826312874',
+          email: 'hambaallah@gmail.com',
+          name_company: 'lorem',
+          desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsa?',
         },
       ],
     }

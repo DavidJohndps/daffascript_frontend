@@ -38,11 +38,13 @@
           uk-margin-xlarge-bottom
         "
       >
+      <nuxt-link to="create_work">
         <img
           uk-img
           src="~/assets/cms/icon/Create.png"
           style="width: 40px; cursor: pointer; position: fixed"
         />
+      </nuxt-link>
       </div>
     </div>
   </div>

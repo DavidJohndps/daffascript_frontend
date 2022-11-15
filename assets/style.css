@@ -127,13 +127,31 @@ input[type="text"]:focus {
     line-height: 24px;
     background-color: #191949;
     border-radius: 8px;
-    border: 3px solid #FD0091;
+    --border-width: 3px;
+    --border-radius: 8px;
+    text-transform: capitalize;
+    position: relative;
+    background: linear-gradient(#FD0091, #FD0091, #FF7732);
+    z-index: 1;
+    border: none;
+}
+.btn-s::before{
+    content: '';
+    display: block;
+    height: calc(100% - calc(var(--border-width) * 2));
+    width: calc(100% - calc(var(--border-width) * 2));
+    background: #000032;
+    position: absolute;
+    top: var(--border-width);
+    left: var(--border-width);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
 }
 
-.btn-s:hover{
-    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
-    border: none;
-    transition-duration: 0.4s;
+.btn-s:hover::before{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%) !important; 
+    border: none !important;
+    transition-duration: 0.4s !important;
 }
 
 .bg-gra{
@@ -174,6 +192,39 @@ input[type="text"]:focus {
     transition-duration: 0.4s;
 }
 
+.button-gra{
+    /* width: 226px; 
+    height: 58px;  */
+    --border-width: 3px;
+    --border-radius: 75px;
+    text-transform: capitalize;
+    position: relative;
+    background: linear-gradient(#FD0091, #FD0091, #FF7732);
+    border-radius: var(--border-radius);
+    z-index: 1;
+    border: none;
+}
+
+.button-gra::before{
+    content: '';
+    display: block;
+    height: calc(100% - calc(var(--border-width) * 2));
+    width: calc(100% - calc(var(--border-width) * 2));
+    background: #000032;
+    position: absolute;
+    top: var(--border-width);
+    left: var(--border-width);
+    border-radius: calc(var(--border-radius) - var(--border-width));
+    z-index: -1;
+}
+
+.button-gra:hover::before{
+    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%) !important; 
+    border: none !important;
+    transition-duration: 0.4s !important;
+}
+
+
 .b-show{
     font-size: 20px;
     line-height: 26px;
@@ -181,8 +232,6 @@ input[type="text"]:focus {
     padding: 16px 32px;
     border-radius: 75px;
     width: 250px;
-    background-color: #000032;
-    border: 3px solid #FD0091;
 }
 
 .b-show:hover{
@@ -198,8 +247,6 @@ input[type="text"]:focus {
     padding: 16px 32px;
     border-radius: 75px;
     width: 250px;
-    background-color: #000032;
-    border: 3px solid #FD0091;
 }
 
 .btn-r-b:hover{
@@ -210,8 +257,8 @@ input[type="text"]:focus {
 
 /* background button */
 .b-navbar{
-    background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
-    border: none;
+    /* background: linear-gradient(180deg, #FD0091 0%, #FD0091 0.01%, #FF7732 100%); 
+    border: none; */
     padding: 13px;
     border-radius: 75px;
 }
@@ -224,7 +271,6 @@ input[type="text"]:focus {
     border-radius: 75px;
     width: 200px;
     background-color: #191949;
-    border: 3px solid #FD0091;
 }
 
 .b-contact:hover{
@@ -278,12 +324,25 @@ input[type="text"]:focus {
 }
 .logo-e{
     width: 250px; 
-    margin-top: 90px; 
+    margin-top: 90px;
     margin-left: 786px;
 }
 
 /* Responsive Footer */ 
 @media only screen and (max-width: 600px) {
+    .button-gra{
+        /* width: 226px; 
+        height: 58px;  */
+        --border-width: 2px;
+        --border-radius: 75px;
+        text-transform: capitalize;
+        position: relative;
+        background: linear-gradient(#FD0091, #FD0091, #FF7732);
+        border-radius: var(--border-radius);
+        z-index: 1;
+        border: none;
+    }
+
     .re-fo{
         padding-left: 0 !important;
         margin-left: 15px !important;
@@ -766,9 +825,6 @@ input[type="text"]:focus {
         padding: 0 !important;
         margin-top: 10px !important;
     }
-    .b-contact {
-        border: 1.5px solid #FD0091;
-    }
     .bannerimg1{
         position: absolute !important;
         z-index: 1;
@@ -846,8 +902,8 @@ input[type="text"]:focus {
         margin-top: 9px !important;
     }
     .res1{
-        margin-left: 15px !important;
-        margin-top: 10px !important;
+        margin-left: -15px !important;
+        margin-top: -30px !important;
         text-align: center !important;
     }
     .res{

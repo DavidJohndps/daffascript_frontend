@@ -34,70 +34,40 @@
                 <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Web</p>
-                <div class="uk-flex uk-padding-remove-left res1" uk-grid>
-                    <div v-for="(web, index) in webs" :key="index" 
-                    class="uk-card uk-text-center cardservices services csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
-                    >
-                        <p class="font-gilroy-medium textservices titleservices text-white">
-                            {{web.work}}
-                        </p>
-                    </div>
+                <div >
+                    <CardWorkWeb :data="webs"/>
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
                 <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Apps</p>
-                <div class="uk-flex uk-padding-remove-left res1" uk-grid>
-                    <div v-for="(app, index) in apps" :key="index" 
-                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
-                    >
-                        <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
-                            {{app.work}}
-                        </p>
-                    </div>
+                <div class="app">
+                    <CardWorkWeb :data="apps"/>
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
                 <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Branding & Marketing</p>
-                <div class="uk-flex uk-padding-remove-left res1" uk-grid>
-                    <div v-for="(brand, index) in brands" :key="index" 
-                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
-                    >
-                        <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
-                            {{brand.work}}
-                        </p>
-                    </div>
+                <div class="brand">
+                    <CardWorkWeb :data="brands"/>
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
                 <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Illustrations & Motion</p>
-                <div class="uk-flex uk-padding-remove-left res1" uk-grid>
-                    <div v-for="(illu, index) in illus" :key="index" 
-                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
-                    >
-                        <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
-                            {{illu.work}}
-                        </p>
-                    </div>
+                <div class="illustration">
+                    <CardWorkWeb :data="illus"/>
                 </div>
             </div>
             <div class="uk-margin-xlarge-top uk-margin-medium-left containerservices uk-flex" uk-grid>
                 <p class="font-gilroy-bold text-white headingservices uk-padding-remove-left"
                 style="font-size: 50px; line-height: 59px;"
                 >Development</p>
-                <div class="uk-flex uk-padding-remove-left res1" uk-grid>
-                    <div v-for="(dev, index) in devs" :key="index" 
-                    class="uk-card uk-text-center cardservices csw res" style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px; "
-                    >
-                        <p class="font-gilroy-medium textservices titleservices text-white" style="font-size: 23px; line-height: 27px;">
-                            {{dev.work}}
-                        </p>
-                    </div>
+                <div class="Development">
+                    <CardWorkWeb :data="devs"/>
                 </div>
             </div>
         </div>
@@ -111,7 +81,7 @@
                 got answers. Let's talk!
                 </h1>
                 <nuxt-link to="/Contact" style="text-decoration: none; color: #fff;">
-                    <button class="uk-margin-medium-top text-white b-contact buttonbanner font-gilroy-medium" style="margin-left: 150px;" >
+                    <button class="uk-margin-medium-top text-white b-contact buttonbanner button-gra font-gilroy-medium" style="margin-left: 150px;" >
                     Contact Us
                     </button>
                 </nuxt-link>
@@ -139,6 +109,7 @@
 </template>
 
 <script>
+    import CardWorkWeb from '~/components/CardWorkWeb.vue';
     export default{
         head() {
             return {
@@ -152,178 +123,181 @@
                 ]
             } 
         },
+        components:{
+            CardWorkWeb
+        },
         data(){
             return {
                 webs: [
                     {
-                        work: "Landing Page"
+                        text: "Landing Page"
                     },
                     {
-                        work: "Web App"
+                        text: "Web App"
                     },
                     {
-                        work: "E-Commerce"
+                        text: "E-Commerce"
                     },
                     {
-                        work: "Marketplace"
+                        text: "Marketplace"
                     },
                     {
-                        work: "Dashboard"
+                        text: "Dashboard"
                     },
                     {
-                        work: "CRM, CMS"
+                        text: "CRM, CMS"
                     },
                     {
-                        work: "Wireframes & User testing"
+                        text: "Wireframes & User testing"
                     },
                     {
-                        work: "Front-end Development"
+                        text: "Front-end Development"
                     },
                     {
-                        work: "Back-end Development"
+                        text: "Back-end Development"
                     },
                     {
-                        work: "Web 3.0 Design"
+                        text: "Web 3.0 Design"
                     },
                     {
-                        work: "Saas"
+                        text: "Saas"
                     }
                 ],
                 apps: [
                     {
-                        work: "flutter"
+                        text: "flutter"
                     },
                     {
-                        work: "App Visual Design"
+                        text: "App Visual Design"
                     },
                     {
-                        work: "React"
+                        text: "React"
                     },
                     {
-                        work: "App Content Hierarchy"
+                        text: "App Content Hierarchy"
                     },
                     {
-                        work: "WireFrames"
+                        text: "WireFrames"
                     },
                     {
-                        work: "Prototyping"
+                        text: "Prototyping"
                     },
                     {
-                        work: "Development"
+                        text: "Development"
                     },
                     {
-                        work: "Watch OS"
+                        text: "Watch OS"
                     },
                     {
-                        work: "Windows"
+                        text: "Windows"
                     },
                     {
-                        work: "Custom App"
+                        text: "Custom App"
                     },
                     {
-                        work: "Android"
+                        text: "Android"
                     },
                     {
-                        work: "Mac Os"
+                        text: "Mac Os"
                     },
                     {
-                        work: "Onboarding"
+                        text: "Onboarding"
                     },
                     {
-                        work: "Gamification & Retention"
+                        text: "Gamification & Retention"
                     },
                     {
-                        work: "User flows and journey"
+                        text: "User flows and journey"
                     },
                     {
-                        work: "AppStore & Playstore screens"
+                        text: "AppStore & Playstore screens"
                     }
                 ],
                 brands: [
                     {
-                        work: "Logo Design"
+                        text: "Logo Design"
                     },
                     {
-                        work: "Visual Identity"
+                        text: "Visual Identity"
                     },
                     {
-                        work: " Brand Identity"
+                        text: " Brand Identity"
                     },
                     {
-                        work: "Brand Strategy"
+                        text: "Brand Strategy"
                     },
                     {
-                        work: "Brandbook"
+                        text: "Brandbook"
                     },
                     {
-                        work: "Brand guidelines"
+                        text: "Brand guidelines"
                     },
                     {
-                        work: "Voice and tone"
+                        text: "Voice and tone"
                     },
                     {
-                        work: "Market research & positioning"
+                        text: "Market research & positioning"
                     },
                     {
-                        work: "Litepapers"
+                        text: "Litepapers"
                     },
                     {
-                        work: "Investor Deck"
+                        text: "Investor Deck"
                     },
                     {
-                        work: "Pitch Deck"
+                        text: "Pitch Deck"
                     },
                     {
-                        work: "Social Media Assets"
+                        text: "Social Media Assets"
                     },
                     {
-                        work: "Video Production"
+                        text: "Video Production"
                     },
                     {
-                        work: "Product Demo Videos"
+                        text: "Product Demo Videos"
                     },
                     {
-                        work: "Email Marketing"
+                        text: "Email Marketing"
                     }
                 ],
                 illus: [
                     {
-                        work: "Lottie animated illustrations"
+                        text: "Lottie animated illustrations"
                     },
                     {
-                        work: " Vectorized illustrations"
+                        text: " Vectorized illustrations"
                     },
                     {
-                        work: " Motion and animations"
+                        text: " Motion and animations"
                     },
                     {
-                        work: "3D illustrations"
+                        text: "3D illustrations"
                     },
                     {
-                        work: "NFT Collections"
+                        text: "NFT Collections"
                     },
                     {
-                        work: "Product Demo"
+                        text: "Product Demo"
                     },
                     {
-                        work: "Interactive UX"
+                        text: "Interactive UX"
                     }
                 ],
                 devs: [
                     {
-                        work: "Webflow Development"
+                        text: "Webflow Development"
                     },
                     {
-                        work: "Wordpress Development"
+                        text: "Wordpress Development"
                     },
                     {
-                        work: "WooCommerce Development"
+                        text: "WooCommerce Development"
                     },
                     {
-                        work: "Contentful Development"
+                        text: "Contentful Development"
                     },
                     {
-                        work: "Custom Web Development"
+                        text: "Custom Web Development"
                     }
                 ],
             }
