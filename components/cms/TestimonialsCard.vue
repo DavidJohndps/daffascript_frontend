@@ -14,25 +14,24 @@
       style="width: 320px"
     >
       <p>{{ testi.name }}</p>
-      <p>{{ testi.name_company }}</p>
-      <p>{{ testi.desc }}</p>
       <div
         class="
           uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom
         "
       >
-      <nuxt-link to="edit_testimonials">
-        <img
-          uk-img
-          src="~/assets/cms/icon/Edit.png"
-          style="width: 30px; cursor: pointer"
-        />
-      </nuxt-link>
-        <img
-          uk-img
-          src="~/assets/cms/icon/Delete.png"
-          style="width: 30px; cursor: pointer"
-        />
+      <nuxt-link :to="'/cms/testimonials/' + testi.id">
+            <img
+              uk-img
+              src="~/assets/cms/icon/Edit.png"
+              style="width: 20px; cursor: pointer"
+            />
+          </nuxt-link>
+          <img
+            uk-img
+            src="~/assets/cms/icon/Delete.png"
+            style="width: 20px; cursor: pointer"
+            @click="deleteData(testi.id)"
+          />
       </div>
     </div>
   </div>
@@ -40,6 +39,6 @@
 
 <script>
 export default {
-  props: ['testimonials'],
+  props: ['testimonials','deleteData'],
 }
 </script>

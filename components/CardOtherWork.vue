@@ -8,14 +8,14 @@
     >
       <div class="uk-width-3-4 uk-text-center">
         <img
-          :src="work.profile"
+          :src="'http://127.0.0.1:8000/assets/work/img/' + work.img"
           class="profile"
           style="border-radius: 56px 0 0 56px"
         />
       </div>
       <div class="uk-width-1-4 uk-text-center uk-position-center-right">
         <img
-          :src="work.logo"
+          :src="'http://127.0.0.1:8000/assets/work/logo/' + work.logo"
           class="uk-margin-medium-right"
           style="width: 250px"
         />

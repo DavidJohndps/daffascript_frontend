@@ -7,7 +7,7 @@
       style="margin-left: 15px; width: auto; padding: 15px 25px 15px 25px"
     >
       <p class="font-gilroy-medium textservices titleservices text-white">
-        {{ value }}
+        {{ value.text }}
       </p>
     </div>
   </div>

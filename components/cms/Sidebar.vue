@@ -63,7 +63,7 @@
           </li>
           <li style="margin-top: 20px">
             <nuxt-link
-              to="/cms/service"
+              to="/cms/servicee"
               style="text-decoration: none; color: white"
             >
               <img
@@ -85,7 +85,43 @@
               />Testimonials</nuxt-link
             >
           </li>
-          <li style="margin-top: 70%">
+          <li style="margin-top: 20px">
+            <nuxt-link
+              to="#"
+              style="text-decoration: none; color: white"
+            >
+              <img
+                uk-img
+                src="~/assets/cms/icon/team.png"
+                style="width: 20px; margin-right: 20px"
+              />Team</nuxt-link
+            >
+          </li>
+          <li style="margin-top: 20px">
+            <nuxt-link
+              to="#"
+              style="text-decoration: none; color: white"
+            >
+              <img
+                uk-img
+                src="~/assets/cms/icon/expertise.png"
+                style="width: 20px; margin-right: 20px"
+              />Expertise</nuxt-link
+            >
+          </li>
+          <li style="margin-top: 20px">
+            <nuxt-link
+              to="#"
+              style="text-decoration: none; color: white"
+            >
+              <img
+                uk-img
+                src="~/assets/cms/icon/technologie.png"
+                style="width: 20px; margin-right: 20px"
+              />Technologie</nuxt-link
+            >
+          </li>
+          <li style="margin-top: 10%">
             <nuxt-link to="#" style="text-decoration: none; color: white">
               <img
                 uk-img

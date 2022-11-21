@@ -226,29 +226,6 @@
           </p>
         </div>
 
-        <!-- <ul class="uk-slider-items" uk-height-viewport="offset-top: true; offset-bottom: 30">
-            <li class="tec2" v-for="(partner, index) in partners" :key="index" style="max-height: 320px;">
-                <div class="uk-margin-large-top mr-user">
-                    <img :src="partner.pict" class="imguser" style="width: 300px;" uk-img alt="">
-                </div>
-                <div class="uk-margin-medium-left homeourpartner">
-                    <img src="~assets/homepage/quote.svg" class="uk-position-absolute uk-visible@m" style="margin-right: 20px; margin-top: 20px;" uk-img alt="">
-                    <p class="font-gilroy-medium uk-margin-large-top uk-margin-medium-left texttittlehome mr-tittle" style="font-size: 35px; line-height: 41px; color: rgba(255, 255, 255, 0.8);">
-                        "{{ partner.title }}"
-                    </p>
-                    <div class="uk-flex">
-                        <div>
-                        <p class="text-white uk-margin-medium-top uk-margin-medium-left uk-margin-remove-bottom textnamehome mr-name" style="font-size: 32px; line-height: 164%; font-weight: 700;">
-                        {{ partner.name }}
-                        </p>
-                        <p class="font-gilroy-medium uk-margin-medium-left uk-margin-remove-top textcompany" style="font-size: 19px; line-height: 22px; color: rgba(255, 255, 255, 0.62);">
-                            {{ partner.company }}
-                        </p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul> -->
 
         <div class="partners">
             <CardPartners :partners="partners"/>
@@ -441,20 +418,13 @@ export default {
         },
       ],
       partners: [
-        {
-          pict: require('../assets/homepage/user/user.svg'),
-          title:
-            "Daffascript Artworks has helped me in building my business' website and it has since increased my sakes significatly",
-          name: 'Walter White',
-          company: 'Owner of PT. Menthapethamin Suksesindo',
-        },
-        {
-          pict: require('../assets/homepage/user/user.svg'),
-          title:
-            'Company has given flexibility of work from anymore, I have grown so much since I started working with this company.',
-          name: 'Febiani Aulia',
-          company: 'Owner of PT. Menthapethamin Suksesindo',
-        },
+        // {
+        //   pict: require('../assets/homepage/user/user.svg'),
+        //   title:
+        //     "Daffascript Artworks has helped me in building my business' website and it has since increased my sakes significatly",
+        //   name: 'Walter White',
+        //   company: 'Owner of PT. Menthapethamin Suksesindo',
+        // },
       ],
       tech: [
         {
@@ -501,6 +471,13 @@ export default {
       this.images = this.images.concat(this.moreImages)
       this.isMoreWorks = true
     },
+    async gettestimonial() {
+      const data = await this.$axios.$get('/api/review')
+      this.partners = data.data
+    },
+  },
+  created() {
+    this.gettestimonial()
   },
 }
 </script>

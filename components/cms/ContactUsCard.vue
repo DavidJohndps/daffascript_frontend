@@ -12,13 +12,17 @@
         color
       "
     >
-      <p>{{ ct.no }} <br> {{ ct.name }} <br> {{ ct.email }} <br> {{ ct.name_company }} <br> {{ ct.desc }}</p>
+      <p>
+        Phone Number : {{ ct.no_telp }} <br> 
+        Name : {{ ct.name_customer }} <br> 
+        Email : {{ ct.email }} <br> 
+        Name Company : {{ ct.name_company }}</p>
       <div
         class="
           uk-position-bottom-right uk-margin-small-right uk-margin-small-bottom uk-margin-small-top
         "
       >
-      <nuxt-link to="edit_contact">
+      <!-- <nuxt-link to="/cms/contact_us/edit_contact">
         <img
           uk-img
           src="~/assets/cms/icon/Edit.png"
@@ -29,7 +33,7 @@
           uk-img
           src="~/assets/cms/icon/Delete.png"
           style="width: 30px; cursor: pointer"
-        />
+        /> -->
       </div>
     </div>
   </div>

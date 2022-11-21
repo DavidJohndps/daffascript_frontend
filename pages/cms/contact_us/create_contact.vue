@@ -1,24 +1,12 @@
 <template>
   <div class="uk-container">
     <div class="uk-position-top-left uk-margin-medium-top uk-margin-medium-left">
-      <nuxt-link to="contact_us">
+      <nuxt-link to="/cms/contact_us">
       <img uk-img src="~/assets/cms/icon/back.png" style="width: 45px">
     </nuxt-link>
     </div>
     <div class="uk-margin-large-top uk-margin-large-left">
     <p class="font-gilroy-bold" style="font-size: 30px; text-align: center;">Create Contact Us</p>
-    <!-- <div class="uk-width-1-2@s uk-flex">
-        <p class="uk-margin-medium-right" style="font-size:30px; text-align: center;">Name: </p>
-            <input class="formc r-formt font-gilroy-medium" type="text" placeholder="">
-    </div>
-    <div class="uk-width-1-2@s uk-flex">
-        <p class="uk-margin-medium-right" style="font-size:30px; text-align: center;">Name: </p>
-            <input class="formc r-formt font-gilroy-medium" type="text" placeholder="">
-    </div>
-    <div class="uk-width-1-2@s uk-flex">
-        <p class="uk-margin-medium-right" style="font-size:30px; text-align: center;">Name: </p>
-            <input class="formc r-formt font-gilroy-medium" type="text" placeholder="">
-    </div> -->
 
     <form class="uk-form-horizontal uk-margin-top-m">
     <div class="uk-flex">

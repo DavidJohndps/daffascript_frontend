@@ -28,7 +28,7 @@
         </div>
       </div> -->
       <div class="uk-margin-xlarge-top uk-margin-large-left containerservices uk-flex" uk-grid>
-        <CardWorkWeb :data="star"/>
+        <CardWorkStar :data="star"/>
       </div>
 
       <!-- <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-margin-large-top uk-flex" uk-grid>
@@ -66,7 +66,7 @@
     </div>
 </div> -->
 
-      <ImgCardDetails :images="images" />
+      <ImgCardDetails :images="images"/>
 
       <div class="Starbucks uk-margin-large-top">
         <p class="text-white font-gilroy-bold text-starbucks">
