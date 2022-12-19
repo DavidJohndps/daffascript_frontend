@@ -331,8 +331,9 @@
 </template>
 
 <script>
+// js import
+import swal from 'sweetalert2'
 export default {
-  layout: 'default',
   head() {
     return {
       title: 'Contact Us',
@@ -359,8 +360,23 @@ export default {
     async save(e) {
       e.preventDefault()
       const data = await this.$axios.$post('/api/contact-us', this.data)
-      alert("terkirim")
+      // alert()
+      new swal({
+        icon: 'success',
+        buttonsStyling: true,
+        title: `Message sent successfully`,
+        confirmButtonColor: '#7066e0',
+        iconColor: '',
+        background: '#1A1A4A',
+        color: 'white',
+      })
     },
   },
 }
 </script>
+
+<style>
+.buttonnn {
+  color: white;
+}
+</style>

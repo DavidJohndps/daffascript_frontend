@@ -5,7 +5,7 @@
       style="font-size: 20px"
     >
       <b style="color: white; font-size: 40px">Contact Us</b>
-      <ContactUsCard :contact="contact" />
+      <ContactUsCard :contact="contact" :deleteData="deleteData"/>
     </div>
 
     <div
@@ -61,6 +61,10 @@ export default {
       const data = await this.$axios.$get('/api/contact-us')
       this.contact = data.data
     },
+    async deleteData(id = null) {
+      const data = await this.$axios.$delete('/api/contact-us/destroy/' + id)
+      this.getData()
+    }
   }
 }
 </script>

@@ -13,8 +13,8 @@
       "
     >
       <p>
+        Name : {{ ct.name_customer }} <br>
         Phone Number : {{ ct.no_telp }} <br> 
-        Name : {{ ct.name_customer }} <br> 
         Email : {{ ct.email }} <br> 
         Name Company : {{ ct.name_company }}</p>
       <div
@@ -28,12 +28,13 @@
           src="~/assets/cms/icon/Edit.png"
           style="width: 30px; cursor: pointer"
         />
-      </nuxt-link>
+      </nuxt-link> -->
         <img
           uk-img
           src="~/assets/cms/icon/Delete.png"
           style="width: 30px; cursor: pointer"
-        /> -->
+          @click="deleteData(ct.id)"
+        />
       </div>
     </div>
   </div>
@@ -41,6 +42,6 @@
 
 <script>
 export default {
-  props: ['contact']
+  props: ['contact', 'deleteData'],
 }
 </script>

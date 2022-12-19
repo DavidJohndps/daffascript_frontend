@@ -18,6 +18,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/Logo2.svg' },
       { rel: "stylesheet", href: "https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Plus Jakarta Sans " },
+      { rel: "stylesheet", href: "sweetalert2/dist/sweetalert2.css" },
     ],
     script: [
         { src: "https://cdn.jsdelivr.net/npm/uikit@3.15.10/dist/js/uikit.min.js" },
@@ -46,14 +47,27 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/auth-next',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: 'http://127.0.0.1:8000',
+    credentials: true,
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  //login
+  auth: {
+    strategies: {
+      laravelSanctum: {
+        provider: 'laravel/sanctum',
+        url: 'http://localhost:8000',
+      },
+    },
+  },
+
 }

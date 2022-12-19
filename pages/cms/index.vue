@@ -36,7 +36,7 @@ export default {
   name: 'IndexPage',
   layout: 'cms/default',
   created(){
-    this.$router.push('/cms/dashboard')
+    this.$router.push('/cms/contact_us')
   }
 }
 </script>

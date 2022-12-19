@@ -25,7 +25,7 @@
         </div>
 
         <ul class="uk-list sidebar" style="margin-top: 25px; margin-left: 10px">
-          <li>
+          <!-- <li>
             <nuxt-link
               to="/cms/dashboard"
               style="text-decoration: none; color: white"
@@ -36,8 +36,8 @@
                 style="width: 20px; margin-right: 20px"
               />Dashboard</nuxt-link
             >
-          </li>
-          <li style="margin-top: 20px">
+          </li> -->
+          <li>
             <nuxt-link
               to="/cms/contact_us"
               style="text-decoration: none; color: white"
@@ -87,7 +87,7 @@
           </li>
           <li style="margin-top: 20px">
             <nuxt-link
-              to="#"
+              to="/cms/ateam"
               style="text-decoration: none; color: white"
             >
               <img
@@ -97,9 +97,9 @@
               />Team</nuxt-link
             >
           </li>
-          <li style="margin-top: 20px">
+          <!-- <li style="margin-top: 20px">
             <nuxt-link
-              to="#"
+              to="/cms/expertise"
               style="text-decoration: none; color: white"
             >
               <img
@@ -108,8 +108,8 @@
                 style="width: 20px; margin-right: 20px"
               />Expertise</nuxt-link
             >
-          </li>
-          <li style="margin-top: 20px">
+          </li> -->
+          <!-- <li style="margin-top: 20px">
             <nuxt-link
               to="#"
               style="text-decoration: none; color: white"
@@ -120,15 +120,14 @@
                 style="width: 20px; margin-right: 20px"
               />Technologie</nuxt-link
             >
-          </li>
+          </li> -->
           <li style="margin-top: 10%">
-            <nuxt-link to="#" style="text-decoration: none; color: white">
+            <a href="#" @click.prevent="logout" style="text-decoration: none; color: white">
               <img
                 uk-img
                 src="~/assets/cms/icon/Logout2.png"
                 style="width: 20px; margin-right: 20px"
-              />Log Out</nuxt-link
-            >
+              />Log Out</a>
           </li>
         </ul>
       </div>
@@ -137,6 +136,20 @@
 </template>
 
 <script>
+  export default {
+  data() {
+    return {
+      user: this.$auth.user.data,
+    }
+  },
+  methods: {
+    async logout() {
+      await this.$auth.logout()
+      this.$router.push('/login')
+    },
+  },
+}
+
 </script>
 
 <style scoped>

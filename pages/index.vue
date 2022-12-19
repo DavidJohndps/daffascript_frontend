@@ -475,9 +475,14 @@ export default {
       const data = await this.$axios.$get('/api/review')
       this.partners = data.data
     },
+    // async getexpertise() {
+    //   const data = await this.$axios.$get('/api/expertise')
+    //   this.expert = data.data
+    // }
   },
   created() {
     this.gettestimonial()
+    // this.getexpertise()
   },
 }
 </script>

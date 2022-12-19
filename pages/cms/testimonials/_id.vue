@@ -144,6 +144,7 @@ export default {
       )
       this.data = {
         name: data.data.name,
+        img: data.data.img,
         name_company: data.data.name_company,
         desc: data.data.desc,
       }

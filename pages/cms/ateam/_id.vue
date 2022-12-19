@@ -3,13 +3,13 @@
     <div
       class="uk-position-top-left uk-margin-medium-top uk-margin-medium-left"
     >
-      <nuxt-link to="/cms/work">
+      <nuxt-link to="/cms/ateam">
         <img uk-img src="~/assets/cms/icon/back.png" style="width: 45px" />
       </nuxt-link>
     </div>
     <div class="uk-margin-large-top uk-margin-large-left">
       <p class="font-gilroy-bold" style="font-size: 30px; text-align: center">
-        Work
+        Team
       </p>
 
       <form class="uk-form-horizontal uk-margin-top-m" @submit="save">
@@ -29,10 +29,29 @@
               placeholder=""
               style="width: 500px"
               v-model="data.name"
-              required
             />
           </div>
         </div>
+        <div class="uk-flex">
+          <p
+            class="font-gilroy-medium"
+            for="form-horizontal-text"
+            style="font-size: 30px; width: 300px"
+          >
+            Position
+          </p>
+          <div class="uk-margin-medium-right">
+            <input
+              class="formc r-formt font-gilroy-medium"
+              id="form-horizontal-text"
+              type="text"
+              placeholder=""
+              style="width: 500px"
+              v-model="data.position"
+            />
+          </div>
+        </div>
+
         <div class="uk-flex">
           <p
             class="font-gilroy-medium"
@@ -43,7 +62,10 @@
           </p>
           <div class="uk-margin-medium-right">
             <div class="js-upload" uk-form-custom>
-              <input type="file" @change="(e) => onFileChange(e, 'img')"/>
+              <input
+                type="file"
+                @change="(e) => onFileChange(e, 'img')"
+              />
               <button
                 class="uk-button"
                 type="button"
@@ -52,30 +74,6 @@
               >
                 <span uk-icon="icon: cloud-upload"></span>
                 {{ data.img ? data.img.name : 'Choose File' }}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="uk-flex">
-          <p
-            class="font-gilroy-medium"
-            for="form-horizontal-text"
-            style="font-size: 30px; width: 300px"
-          >
-            Logo
-          </p>
-          <div class="uk-margin-medium-right">
-            <div class="js-upload" uk-form-custom>
-              <input type="file" @change="(e) => onFileChange(e, 'logo')"/>
-              <button
-                class="uk-button"
-                type="button"
-                tabindex="-1"
-                style="background-color: #191949; border-radius: 10px"
-              >
-                <span uk-icon="icon: cloud-upload"></span>
-                {{ data.logo ? data.logo.name : 'Choose File' }}
               </button>
             </div>
           </div>
@@ -98,7 +96,7 @@
 <script>
 export default {
   head: {
-    title: 'Create Work',
+    title: 'Edit team',
     meta: [
       {
         hid: 'description',
@@ -113,8 +111,8 @@ export default {
     return {
       data: {
         name: null,
+        position: null,
         img: null,
-        logo: null,
       },
     }
   },
@@ -124,22 +122,23 @@ export default {
   methods: {
     async get() {
       const data = await this.$axios.$get(
-        '/api/work/get/' + this.$route.params.id
+        '/api/team/get/' + this.$route.params.id
       )
       this.data = {
         name: data.data.name,
+        position: data.data.position,
         img: data.data.img,
-        logo: data.data.logo,
       }
     },
     async save(e) {
       e.preventDefault()
-      let formData = new FormData();
-      formData.append('name', this.data.name);
-      formData.append('img', this.data.img);
-      formData.append('logo', this.data.logo);
+      let formData = new FormData() 
+      formData.append('name', this.data.name)
+      formData.append('position', this.data.position)
+      formData.append('img', this.data.img)
+      console.log(this.data, formData);
       const data = await this.$axios.$post(
-        '/api/work/update/' + this.$route.params.id,
+        '/api/team/update/' + this.$route.params.id,
         formData,
         {
           headers: {
@@ -147,7 +146,7 @@ export default {
           },
         }
       )
-      this.$router.push('/cms/work')
+      this.$router.push('/cms/ateam')
     },
     onFileChange(e, field = null) {
       var files = e.target.files || e.dataTransfer.files

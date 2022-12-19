@@ -5,10 +5,10 @@
   >
     <b style="color: white; font-size: 40px">Work Dashboard</b>
     <div class="uk-margin-large-top uk-margin-xlarge-right uk-position-top-right">
-      <form class="uk-search uk-search-default" style="border-radius: 10px">
+      <!-- <form class="uk-search uk-search-default" style="border-radius: 10px">
         <span class="uk-search-icon-flip" uk-search-icon style="cursor: pointer"></span>
         <input class="uk-search-input" type="search" placeholder="Search" aria-label="Search">
-    </form>
+    </form> -->
     </div>
     <div class="uk-flex uk-child-width-1-5" style="flex-wrap: wrap">
       <div
